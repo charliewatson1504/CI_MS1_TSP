@@ -1,3 +1,13 @@
+# The Sky Parlour Salon
+
+**User Centric Frontend Development Milestone Project**
+
+![Main Mockup - placeholder](#)
+
+[Link to live site - placeholder](#)
+
+
+
 ## Project Goals
 
 ## User Goals
