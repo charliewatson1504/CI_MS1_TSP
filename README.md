@@ -2,6 +2,10 @@
 
 **User Centric Frontend Development Milestone Project**
 
+## Project Overview
+
+This project is built for The Sky Parlour is a private hair salon in Consett, County Durham, UK. The idea of the project is to inform new and returning customers to announcements, give details on services offered, showcase the team and their skills and how customers can contact the salon.
+
 ![Main Mockup - placeholder](#)
 
 [Link to live site - placeholder](#)
