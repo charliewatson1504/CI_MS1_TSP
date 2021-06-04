@@ -40,18 +40,18 @@ This project is built for The Sky Parlour is a private hair salon in Consett, Co
 
 The goal for this website is to inform potential new and exisiting clients of the below information:
 
-- Announcments
+- Announcments of updates to the salon
 - Reviews of clients of The Sky Parlour
-- Services offered
+- Services offered with an explanation of the service
 - The team at The Sky Parlour
 
 The webiste also needs have a section where enquires can be made and bookings can be placed.
 
-## User Goals
+## User Stories
+
+1. 
 
 ## Site Owner Goals
-
-## User Stories
 
 ## User Requirements and Expectations
 
