@@ -76,7 +76,15 @@ The webiste also needs have a section where enquires can be made and bookings ca
 
 ## User Requirements and Expectations
 
-
+1. The website should include:
+    - A navigation bar that enables easy transition between pages and is responsive to whichever media screen it is viewed upon
+    - Details of the services offered in the salon
+    - Summary of the team members of the salon
+    - Various pictures of the completed work in the salon
+    - Form to contact the salon
+    - Form to make a booking with the salon
+    - Map of where the salon is located
+2. The website must be aesthetic and intuitive
 
 # Design Choices
 
