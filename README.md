@@ -67,7 +67,16 @@ The webiste also needs have a section where enquires can be made and bookings ca
 
 ## Site Owner Goals
 
+11. As a **Site Owner** I want to create an intuitive and responsive website
+12. As a **Site Owner** I want to be able to inform clients of changes to the salon
+13. As a **Site Owner** I want to generate revenue by allowing clients to book through the website
+14. As a **Site Owner** I want more exposure of the salon's social media pages
+15. As a **Site Owner** I want to be able to receive communication from site visitors
+16. As a **Site Owner** I want to be able show visitors where the salon is based
+
 ## User Requirements and Expectations
+
+
 
 # Design Choices
 
