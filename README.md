@@ -49,7 +49,21 @@ The webiste also needs have a section where enquires can be made and bookings ca
 
 ## User Stories
 
-1. 
+### First Time Visitor
+
+1. As a **First Time Visitor** I want to know what services are offered by the salon
+2. As a **First Time Visitor** I want to be able to contact the salon with an enquiry
+3. As a **First Time Visitor** I want to be able to make a booking for a service provided by the salon
+4. As a **First Time Visitor** I want to be able to see pictures of completed services the salon provides
+5. As a **First Time Visitor** I want to be able to visit the salon's social media pages
+6. As a **First Time Visitor** I want to be able to find out more about the team that works at the salon
+7. As a **First Time Visitor** I want to be able to find out where the salon is located
+
+### Returning Visitor
+
+8. As a **Returning Visitor** I want to be able to find out any new announcements the salon has made
+9. As a **Returning Visitor** I want to be able to be able to book a service with the salon
+10. As a **Returning Visitor** I want to be able to visit the salon's social media pages
 
 ## Site Owner Goals
 
