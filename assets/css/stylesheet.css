@@ -17,3 +17,11 @@ h1, h2 {
     font-family: Sepctral, sans-serif;
     font-weight: 700;
 }
+
+/* Header */
+
+#header {
+    height: 499px;
+    width: 100%;
+    background: url('../images/header_image.jpg') no-repeat center center;
+}
