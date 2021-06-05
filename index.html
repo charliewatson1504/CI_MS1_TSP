@@ -5,24 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+
     <title>Document</title>
 
 </head>
 <body>
     <header>
-      
+        <div id="header-img"></div>
+            <nav class="navbar navbar-expand-lg" id="myNavbar">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Meet The Team</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <button class="btn">Book Now</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
     </header>
     <section>
-        Welcome to The Sky Parlour
+        <h1>Welcome to The Sky Parlour</h1>
     </section>
     <section>
         Eleven Austrailia Ambassador
     </section>
     <section>
         NEU Hair 4 Men
+        <p style="height: 900px;">dksdjbfewifhbowefinhoewfnowenfo 
+            weihforingfoeringhoerignhoerignreoign 
+            reolkgnverklvfjnkijfuhbwriefjbribnjgfkrj 
+            bngfliuhgiseugbleaiughfaweriuhfiaeughflieubrgla 
+            sjbvliuorbfieuhgeilauhgliaeurbgliaeufgvlaiugfelaig 
+            ujfvrlegiufehalgiurliusaluelriaughfaejiuraleiughfalek 
+            ujreutghlejrgbhflieughfalejiurhfleajuirghliaueghlieaujg 
+            hlaiureghlegiuarvlaejrgnlreiuaegilaujrhlaejurglaieujghliej 
+            guhlrejughlaejudghlaiuehrgliaedhliutgliujhtglijuhgbdr</p>
     </section>
     <section>
         New Team Member
@@ -36,5 +74,21 @@
 
     <!-- Script for Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Script for sticky header from w3schools-->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myNavbar");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html>

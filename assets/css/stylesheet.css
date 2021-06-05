@@ -1,27 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;700&display=swap');
 
-* {
+html, body {
+    font-family: 'Spectral', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
     margin: 0;
     padding: 0;
     border: none;
-}
-
-body {
-    font-family: Spectral, sans-serif;
-    font-weight: 300;
+    top: 0;
+    left: 0;
 }
 
 /* Headings */
 
 h1, h2 {
-    font-family: Sepctral, sans-serif;
+    font-family: 'Sepctral', sans-serif;
     font-weight: 700;
 }
 
 /* Header */
 
-#header {
-    height: 499px;
+#header-img {
+    height: 400px;
     width: 100%;
-    background: url('../images/header_image.jpg') no-repeat center center;
+    background: url('../images/header_image.jpg') no-repeat center 0;
+    top: 0px;
+}
+
+/* Navbar */
+
+.navbar {
+    background: url('../images/nav-background.jpg') no-repeat center 0;
+    width: 100%;
+    color: rgba(198, 89, 219, 0.884);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: purple;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: royalblue;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: .5rem 0;
 }
