@@ -104,4 +104,14 @@ h1, h2 {
 
 .footer {
     border-top: 2px black solid;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.footer a {
+    padding: 2rem;
+    color: black;
 }
