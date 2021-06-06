@@ -99,6 +99,22 @@ h1, h2 {
     background: red;
 }
 
+/* Welcome section */
+
+#welcome-img {
+    margin: 1%;
+    height: auto;
+    width: 30%;
+}
+
+#welcome-section>span {
+    text-align: center;
+}
+
+#welcome-section span + span {
+    display: inline-block;
+    width: 60%;
+}
 
 /* Footer */
 
