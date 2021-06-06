@@ -25,9 +25,9 @@ h1, h2 {
 /* Header */
 
 #header-img {
+    background: url(../images/header_image.jpg) no-repeat center 0;
     height: 400px;
     width: 100%;
-    background: url('../images/header_image.jpg') no-repeat center 0;
     top: 0px;
 }
 
