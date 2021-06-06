@@ -24,7 +24,7 @@ h1, h2 {
 
 /* Header */
 
-#header-img {
+.header-img {
     background: url(../images/header_image.jpg) no-repeat center 0;
     height: 400px;
     width: 100%;
@@ -97,4 +97,11 @@ h1, h2 {
 .btn-secondary{
     color: white;
     background: red;
+}
+
+
+/* Footer */
+
+.footer {
+    border-top: 2px black solid;
 }
