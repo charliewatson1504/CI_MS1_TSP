@@ -44,9 +44,47 @@
                     <a class="nav-link" href="#">Contact Us</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <button class="btn" type="submit">Book Now</button>
-                </form>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Book Now
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Make a Booking Enquiry</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="">
+                                    <div class="bookingform">
+                                        <label for="name" class="formlabel">Name: </label>
+                                        <input type="text" name="name" id="name" placeholder="Enter Name" class="forminput" required>
+                                    </div>
+                                    <div class="bookingform">
+                                        <label for="email" class="formlabel">Email: </label>
+                                        <input type="email" name="email" id="email" placeholder="someone@example.com" class="forminput" required>
+                                    </div>
+                                    <div class="bookingform">
+                                        <label for="date" class="formlabel">Date: </label>
+                                        <input type="datetime-local" name="date" id="date" class="forminput" required>
+                                    </div>
+                                    <div class="bookingform">
+                                        <label for="service" class="formlabel">Service: </label>
+                                        <input type="text" name="service" id="service" placeholder="Enter service required" class="forminput" required>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Submit Request</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
               </div>
             </div>
           </nav>

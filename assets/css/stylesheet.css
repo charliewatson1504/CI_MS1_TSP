@@ -35,13 +35,17 @@ h1, h2 {
 
 .navbar {
     background: url('../images/nav-background.jpg') no-repeat center 0;
-    width: 100%;
+}
+
+.navbar-collapse.collapse.show {
+    padding-top: 60px;
 }
 
 .nav-link {
     color: black;
     font-weight: 500;
     font-size: 1.2rem;
+    align-content: center;
 }
 
 .nav-link:hover {
@@ -57,8 +61,20 @@ h1, h2 {
 }
 
 .btn {
-    color: white;
-    background: blueviolet;
+    color: black;
+    background: transparent;
+    border: 1px black solid;
+}
+
+.btn:hover {
+    color: blueviolet;
+    background: rgba(137, 43, 226, 0.2);
+    border: 1px blueviolet solid;
+}
+
+.bookingform {
+    align-content: center;
+    padding: 1rem;
 }
 
 .sticky {
@@ -66,4 +82,19 @@ h1, h2 {
     top: 0;
     width: 100%;
     padding: .5rem 0;
+}
+
+/* Modal */
+
+.forminput {
+    width: 100%;
+}
+
+.btn-primary{
+    color: black;
+}
+
+.btn-secondary{
+    color: white;
+    background: red;
 }
