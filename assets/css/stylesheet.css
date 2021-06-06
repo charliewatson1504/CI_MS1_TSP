@@ -116,6 +116,59 @@ h1, h2 {
     width: 60%;
 }
 
+/* Announcments */
+
+.eleven-aus span:first-child {
+    display: inline-block;
+    width: 66%;
+    text-align: center;
+}
+
+.eleven-aus span + span {
+    display: inline-block;
+    width: 33%;
+}
+
+.eleven-aus span img {
+    margin: 1%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.NEU4Men span:first-child {
+    display: inline-block;
+    width: 33%;
+}
+
+.NEU4Men span + span {
+    display: inline-block;
+    width: 66%;
+    text-align: center;
+}
+
+.NEU4Men span img {
+    margin: 1%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.team-member span:first-child {
+    display: inline-block;
+    width: 66%;
+    text-align: center;
+}
+
+.team-member span + span {
+    display: inline-block;
+    width: 33%;
+}
+
+.team-member span img {
+    margin: 1%;
+    height: 400px;
+    object-fit: contain;
+}
+
 /* Footer */
 
 .footer {
