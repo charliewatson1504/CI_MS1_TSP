@@ -101,19 +101,21 @@ h1, h2 {
 
 /* Welcome section */
 
-#welcome-img {
-    margin: 1%;
-    height: auto;
-    width: 30%;
+.welcome-section span:first-child {
+    display: inline-block;
+    width: 33%;
 }
 
-#welcome-section>span {
+.welcome-section span + span {
+    display: inline-block;
+    width: 66%;
     text-align: center;
 }
 
-#welcome-section span + span {
-    display: inline-block;
-    width: 60%;
+.welcome-section span img {
+    margin: 1%;
+    height: 400px;
+    object-fit: contain;
 }
 
 /* Announcments */
@@ -127,6 +129,7 @@ h1, h2 {
 .eleven-aus span + span {
     display: inline-block;
     width: 33%;
+    padding-left: 1rem;
 }
 
 .eleven-aus span img {
@@ -161,6 +164,7 @@ h1, h2 {
 .team-member span + span {
     display: inline-block;
     width: 33%;
+    padding-left: 1rem;
 }
 
 .team-member span img {
