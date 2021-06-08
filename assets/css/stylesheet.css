@@ -99,78 +99,39 @@ h1, h2 {
     background: red;
 }
 
-/* Welcome section */
+/* Homepage Information Section */
 
-.welcome-section span:first-child {
-    display: inline-block;
-    width: 33%;
+#welcome-title {
+    padding-top: 5rem;
 }
 
-.welcome-section span + span {
-    display: inline-block;
+.home-section {
+    height: 420px;
+    display: flex;
+}
+
+.home-section img {
+    height: 400px;
+}
+
+.home-section span {
     width: 66%;
     text-align: center;
+    padding-top: 2rem;
 }
 
-.welcome-section span img {
-    margin: 1%;
-    height: 400px;
-    object-fit: contain;
+.float-left {
+    float: left;
 }
 
-/* Announcments */
-
-.eleven-aus span:first-child {
-    display: inline-block;
-    width: 66%;
-    text-align: center;
+.float-right {
+    float: right;
 }
 
-.eleven-aus span + span {
-    display: inline-block;
-    width: 33%;
-    padding-left: 1rem;
-}
+/* Reviews Section */
 
-.eleven-aus span img {
-    margin: 1%;
-    height: 400px;
-    object-fit: contain;
-}
-
-.NEU4Men span:first-child {
-    display: inline-block;
-    width: 33%;
-}
-
-.NEU4Men span + span {
-    display: inline-block;
-    width: 66%;
-    text-align: center;
-}
-
-.NEU4Men span img {
-    margin: 1%;
-    height: 400px;
-    object-fit: contain;
-}
-
-.team-member span:first-child {
-    display: inline-block;
-    width: 66%;
-    text-align: center;
-}
-
-.team-member span + span {
-    display: inline-block;
-    width: 33%;
-    padding-left: 1rem;
-}
-
-.team-member span img {
-    margin: 1%;
-    height: 400px;
-    object-fit: contain;
+.carousel-item img {
+    height: 200px;
 }
 
 /* Footer */
