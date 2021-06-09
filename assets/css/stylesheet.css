@@ -122,8 +122,14 @@ h1, h2 {
 
 /* Reviews Section */
 
-.carousel-item img {
-    height: 200px;
+.reviews div h2,
+.reviews div p {
+    text-align: center;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 1rem 4rem;
 }
 
 /* Footer */
