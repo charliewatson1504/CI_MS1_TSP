@@ -105,27 +105,19 @@ h1, h2 {
     padding-top: 5rem;
 }
 
-.home-section {
-    height: 420px;
+.home-container {
+    margin: 1em;
     display: flex;
 }
 
-.home-section img {
+.home-container img {
     height: 400px;
 }
 
-.home-section span {
-    width: 66%;
+.text-box {
+    flex-grow: 2;
     text-align: center;
     padding-top: 2rem;
-}
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
 }
 
 /* Reviews Section */
