@@ -42,34 +42,38 @@ h1, h2 {
 }
 
 .nav-link {
-    color: black;
+    color: white;
     font-weight: 500;
     font-size: 1.2rem;
     align-content: center;
+    background: border-box rgba(0, 0, 0, 0.2);
+    margin: 0.2rem;
+    border-radius: 5px;
 }
 
 .nav-link:hover {
-    color: blueviolet;
-    border-bottom: blueviolet 1px solid;
+    color: black;
+    border-bottom: black 1px solid;
 }
 
 .nav-link.active {
-    color: blueviolet;
+    color: black;
     font-weight: 600;
-    border-bottom: blueviolet 1px solid;
+    border: black 1px solid;
     
 }
 
 .btn {
-    color: black;
+    color: white;
     background: transparent;
-    border: 1px black solid;
+    border: 1px white solid;
+    font-size: 1.3em;
 }
 
 .btn:hover {
-    color: blueviolet;
-    background: rgba(137, 43, 226, 0.2);
-    border: 1px blueviolet solid;
+    color: black;
+    background: rgba(216, 216, 216, 0.2);
+    border: 1px black solid;
 }
 
 .bookingform {
@@ -96,7 +100,7 @@ h1, h2 {
 
 .btn-secondary{
     color: white;
-    background: red;
+    background: rgba(255, 0, 0, 0.445);
 }
 
 /* Homepage Information Section */
