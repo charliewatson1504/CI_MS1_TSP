@@ -46,6 +46,7 @@ h1, h2 {
     font-weight: 500;
     font-size: 1.2rem;
     align-content: center;
+    border: 1px white solid;
     background: border-box rgba(0, 0, 0, 0.2);
     margin: 0.2rem;
     border-radius: 5px;
@@ -64,7 +65,7 @@ h1, h2 {
 
 .btn {
     color: white;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.2);
     border: 1px white solid;
     font-size: 1.3em;
 }
