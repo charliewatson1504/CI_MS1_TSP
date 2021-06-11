@@ -89,25 +89,23 @@
             </div>
           </nav>
     </header>
-    <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Featured')">Featured</button>
-        <button class="tablinks" onclick="openCity(event, 'Consultations')">Consultations & Patch Tests</button>
-        <button class="tablinks" onclick="openCity(event, 'Packages')">Packages</button>
-        <button class="tablinks" onclick="openCity(event, 'Colouring-Ser')">Colouring Services</button>
-        <button class="tablinks" onclick="openCity(event, 'Bond-Build-Hair-Treat')">Bond Building Hair Treatments</button>
-        <button class="tablinks" onclick="openCity(event, 'C&BD-Services')">Cut & Blow-Dry Services</button>
-        <button class="tablinks" onclick="openCity(event, 'Male-Hair-Replace')">Male Hair Replacement Services</button>
-      </div>
-    
+    <section id="services">
+    <div class="heading">
+      <h1>Services</h1>
+    </div>
+    <div class="heading">
+      <h3>Featured</h3>
+    </div>
+    <div class="container">
       <div id="Featured" class="tabcontent">
         <div class="accordion" id="accordionFeatured">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFeaturedC&S-long">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedC&S-long" aria-expanded="true" aria-controls="collapseFeaturedC&S-long">
+              <h2 class="accordion-header" id="headingFeaturedCS-long">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedCS-long" aria-expanded="true" aria-controls="collapseFeaturedCS-long">
                   Cut and Style - Long Hair - £34
                 </button>
               </h2>
-              <div id="collapseFeaturedC&S-long" class="accordion-collapse collapse show" aria-labelledby="headingFeaturedC&S-long" data-bs-parent="#accordionFeatured">
+              <div id="collapseFeaturedCS-long" class="accordion-collapse collapse show" aria-labelledby="headingFeaturedCS-long" data-bs-parent="#accordionFeatured">
                 <div class="accordion-body">
                     This is for anyone with a short bob and longer hair! Here at the Sky Parlour Salon all our services are non-gender specific.
                 </div>
@@ -188,12 +186,12 @@
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFeaturedC&S-short">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedC&S-short" aria-expanded="false" aria-controls="collapseFeaturedC&S-short">
+                <h2 class="accordion-header" id="headingFeaturedCS-short">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedCS-short" aria-expanded="false" aria-controls="collapseFeaturedCS-short">
                     Cut and Style - Short Hair - £25
                   </button>
                 </h2>
-                <div id="collapseFeaturedC&S-short" class="accordion-collapse collapse" aria-labelledby="headingFeaturedC&S-short" data-bs-parent="#accordionFeatured">
+                <div id="collapseFeaturedCS-short" class="accordion-collapse collapse" aria-labelledby="headingFeaturedCS-short" data-bs-parent="#accordionFeatured">
                   <div class="accordion-body">
                     This is for you if you have a short back and sides or a super short pixie crop! Here at The Sky Parlour Salon all our services are non-gender specific.
                   </div>
@@ -201,7 +199,11 @@
             </div>
           </div>
       </div>
-     
+    </div>
+    <div class="heading">
+      <h3>Consultations and Patch Tests</h3>
+    </div>
+    <div class="container">
       <div id="Consultations" class="tabcontent">
         <div class="accordion" id="accordionConsultations">
             <div class="accordion-item">
@@ -273,7 +275,11 @@
             </div>
           </div>
       </div>
-      
+    </div>
+    <div class="heading">
+      <h3>Packages</h3>
+    </div>
+    <div class="container">
       <div id="Packages" class="tabcontent">
         <div class="accordion" id="accordionPackages">
             <div class="accordion-item">
@@ -328,7 +334,11 @@
             </div>
         </div>
       </div>
-
+    </div>
+    <div class="heading">
+      <h3>Colouring Services</h3>
+    </div>
+    <div class="container">
       <div id="Colouring-Ser" class="tabcontent">
         <div class="accordion" id="accordionColour-Serv">
             <div class="accordion-item">
@@ -509,16 +519,20 @@
             </div>
           </div>
       </div>
-
+    </div>
+    <div class="heading">
+      <h3>Bond Building Hair Treatments</h3>
+    </div>
+    <div class="container">
       <div id="Bond-Build-Hair-Treat" class="tabcontent">
         <div class="accordion" id="accordionBond-Build-Hair-Treat">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOlaplex-C&BD">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOlaplex-C&BD" aria-expanded="true" aria-controls="collapseOlaplex-C&BD">
+              <h2 class="accordion-header" id="headingOlaplex-CBD">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOlaplex-CBD" aria-expanded="true" aria-controls="collapseOlaplex-CBD">
                   Olaplex Treatment Plus Cut & Blow-dry - £45
                 </button>
               </h2>
-              <div id="collapseOlaplex-C&BD" class="accordion-collapse collapse show" aria-labelledby="headingOlaplex-C&BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
+              <div id="collapseOlaplex-CBD" class="accordion-collapse collapse show" aria-labelledby="headingOlaplex-C&D" data-bs-parent="#accordionBond-Build-Hair-Treat">
                 <div class="accordion-body">
                   Olaplex is the Original Bond Builder. It works on a molecular level to repair broken disulfide bonds. It can be used as a stand alone treatment along side a cut and blow-dry or blow-dry service.
                 </div>
@@ -526,23 +540,23 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOlaplex-BD">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOlaplex-BD" aria-expanded="true" aria-controls="collapseOlaplex-BD">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOlaplex-BD" aria-expanded="false" aria-controls="collapseOlaplex-BD">
                   Olaplex Treatment & Blow-Dry - £40
                 </button>
               </h2>
-              <div id="collapseOlaplex-BD" class="accordion-collapse collapse show" aria-labelledby="headingOlaplex-BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
+              <div id="collapseOlaplex-BD" class="accordion-collapse collapse" aria-labelledby="headingOlaplex-BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
                 <div class="accordion-body">
                   Olaplex is the Original Bond Builder. It works on a molecular level to repair broken disulfide bonds. It can be used as a stand alone treatment along side a cut and blow-dry or blow-dry service.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingBond-Build-C&BD">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBond-Build-C&BD" aria-expanded="true" aria-controls="collapseBond-Build-C&BD">
+              <h2 class="accordion-header" id="headingBond-Build-CBD">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBond-Build-CBD" aria-expanded="false" aria-controls="collapseBond-Build-CBD">
                   Brazilian Bond Builder Treatment Plus Cut & Blow-dry - £50
                 </button>
               </h2>
-              <div id="collapseBond-Build-C&BD" class="accordion-collapse collapse show" aria-labelledby="headingBond-Build-C&BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
+              <div id="collapseBond-Build-CBD" class="accordion-collapse collapse" aria-labelledby="headingBond-Build-CBD" data-bs-parent="#accordionBond-Build-Hair-Treat">
                 <div class="accordion-body">
                   Brazilian Bond Builder is a beautiful treatment for anyone who wants healthier, stronger, shinier hair! This service lasts up to 12 weeks and is a combination of B3 and the Demi permanent conditioning treatment which is then put under heat. It will be done along side a cut and blow-dry. 
                 </div>
@@ -550,23 +564,23 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingBond-Build-BD">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBond-Build-BD" aria-expanded="true" aria-controls="collapseBond-Build-BD">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBond-Build-BD" aria-expanded="false" aria-controls="collapseBond-Build-BD">
                   Brazilian Bond Builder Treatment & Blow-Dry - £42
                 </button>
               </h2>
-              <div id="collapseBond-Build-BD" class="accordion-collapse collapse show" aria-labelledby="headingBond-Build-BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
+              <div id="collapseBond-Build-BD" class="accordion-collapse collapse" aria-labelledby="headingBond-Build-BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
                 <div class="accordion-body">
                   Brazilian Bond Builder is a beautiful treatment for anyone who wants healthier, stronger, shinier hair! This service lasts up to 12 weeks and is a combination of B3 and the Demi permanent conditioning treatment which is then put under heat. It will be done along side a blow-dry. 
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingB3-Split-C&BD">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3-Split-C&BD" aria-expanded="true" aria-controls="collapseB3-Split-C&BD">
+              <h2 class="accordion-header" id="headingB3-Split-CBD">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3-Split-CBD" aria-expanded="false" aria-controls="collapseB3-Split-CBD">
                   B3 Split End Bonder Treatment Plus Cut & Blow-Dry - £44
                 </button>
               </h2>
-              <div id="collapseB3-Split-C&BD" class="accordion-collapse collapse show" aria-labelledby="headingB3-Split-C&BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
+              <div id="collapseB3-Split-CBD" class="accordion-collapse collapse" aria-labelledby="headingB3-Split-CBD" data-bs-parent="#accordionBond-Build-Hair-Treat">
                 <div class="accordion-body">
                   B3 Split End Bondering treatment is a phenomenal treatment for anyone who wants to take care of the ends of their hair. It’s a heat activated treatment and lasts up to 4 weeks. 
                 </div>
@@ -574,11 +588,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingB3-Split-BD">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3-Split-BD" aria-expanded="true" aria-controls="collapseB3-Split-BD">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB3-Split-BD" aria-expanded="false" aria-controls="collapseB3-Split-BD">
                   B3 Split End Bonder Treatment Plus Blow-Dry - £36
                 </button>
               </h2>
-              <div id="collapseB3-Split-BD" class="accordion-collapse collapse show" aria-labelledby="headingB3-Split-BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
+              <div id="collapseB3-Split-BD" class="accordion-collapse collapse" aria-labelledby="headingB3-Split-BD" data-bs-parent="#accordionBond-Build-Hair-Treat">
                 <div class="accordion-body">
                   B3 Split End Bondering treatment is a phenomenal treatment for anyone who wants to take care of the ends of their hair. It’s a heat activated treatment and lasts up to 4 weeks. 
                 </div>
@@ -586,64 +600,68 @@
             </div>
           </div>
       </div>
-
-      <div id="C&BD-Services" class="tabcontent">
-        <div class="accordion" id="accordionC&BD-Services">
+    </div>
+    <div class="heading">
+      <h3>Cut and Blow-Dry Services</h3>
+    </div>
+    <div class="container">
+      <div id="CBD-Services" class="tabcontent">
+        <div class="accordion" id="accordionCBD-Services">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingAdult-Dry-Cut">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdult-Dry-Cut" aria-expanded="true" aria-controls="collapseAdult-Dry-Cut">
                   Adult Dry Cut - £20
                 </button>
               </h2>
-              <div id="collapseAdult-Dry-Cut" class="accordion-collapse collapse show" aria-labelledby="headingAdult-Dry-Cut" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseAdult-Dry-Cut" class="accordion-collapse collapse show" aria-labelledby="headingAdult-Dry-Cut" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   This cutting services is only recommended for clean dry hair. Your hair might not to suitable for a dry cut so if unsure please get in touch so we can best advise you. 
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingC&S-Long">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseC&S-Long" aria-expanded="true" aria-controls="collapseC&S-Long">
+              <h2 class="accordion-header" id="headingCS-Long">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCS-Long" aria-expanded="false" aria-controls="collapseCS-Long">
                   Cut and Style - Long Hair - £34
                 </button>
               </h2>
-              <div id="collapseC&S-Long" class="accordion-collapse collapse show" aria-labelledby="headingC&S-Long" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseCS-Long" class="accordion-collapse collapse" aria-labelledby="headingCS-Long" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   This is for anyone with a short bob and longer hair! Here at the Sky Parlour Salon all our services are non-gender specific.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingC&S-Short">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseC&S-Short" aria-expanded="true" aria-controls="collapseC&S-Short">
+              <h2 class="accordion-header" id="headingCS-Short">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCS-Short" aria-expanded="false" aria-controls="collapseCS-Short">
                   Cut and Style - Short Hair - £25
                 </button>
               </h2>
-              <div id="collapseC&S-Short" class="accordion-collapse collapse show" aria-labelledby="headingC&S-Short" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseCS-Short" class="accordion-collapse collapse" aria-labelledby="headingCS-Short" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   This is for you if you have a short back and sides or a super short pixie crop! Here at The Sky Parlour Salon all our services are non-gender specific.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingRestyle-C&S">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRestyle-C&S" aria-expanded="true" aria-controls="collapseRestyle-C&S">
+              <h2 class="accordion-header" id="headingRestyle-CS">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRestyle-CS" aria-expanded="false" aria-controls="collapseRestyle-CS">
                   Restyle Cut and Style - £49
                 </button>
               </h2>
-              <div id="collapseRestyle-C&S" class="accordion-collapse collapse show" aria-labelledby="headingRestyle-C&S" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseRestyle-CS" class="accordion-collapse collapse" aria-labelledby="headingRestyle-CS" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   If you have long hair and are sick of it and want to go short or have a major change then gather your inspo pics and book this appointment.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingYoung-Adult-C&BD">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseYoung-Adult-C&BD" aria-expanded="true" aria-controls="collapseYoung-Adult-C&BD">
+              <h2 class="accordion-header" id="headingYoung-Adult-CBD">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseYoung-Adult-CBD" aria-expanded="false" aria-controls="collapseYoung-Adult-CBD">
                   Young Adult Cut & Blow-dry - £25
                 </button>
               </h2>
-              <div id="collapseYoung-Adult-C&BD" class="accordion-collapse collapse show" aria-labelledby="headingYoung-Adult-C&BD" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseYoung-Adult-CBD" class="accordion-collapse collapse" aria-labelledby="headingYoung-Adult-CBD" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   Wash, cut and blow dry service for young adults from age 13 to 16 yrs of age.
                 </div>
@@ -651,11 +669,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingYoung-Adult-Dry-Cut">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseYoung-Adult-Dry-Cut" aria-expanded="true" aria-controls="collapseYoung-Adult-Dry-Cut">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseYoung-Adult-Dry-Cut" aria-expanded="false" aria-controls="collapseYoung-Adult-Dry-Cut">
                   Young Adult Dry Cut - £15
                 </button>
               </h2>
-              <div id="collapseYoung-Adult-Dry-Cut" class="accordion-collapse collapse show" aria-labelledby="headingYoung-Adult-Dry-Cut" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseYoung-Adult-Dry-Cut" class="accordion-collapse collapse" aria-labelledby="headingYoung-Adult-Dry-Cut" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   This service is for young adults, aged 13 to 16 not needing a wash and blow dry. Please come with clean dry hair.
                 </div>
@@ -663,11 +681,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingChildren-Dry-Cut">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChildren-Dry-Cut" aria-expanded="true" aria-controls="collapseChildren-Dry-Cut">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChildren-Dry-Cut" aria-expanded="false" aria-controls="collapseChildren-Dry-Cut">
                   Children's Dry Cut - £10
                 </button>
               </h2>
-              <div id="collapseChildren-Dry-Cut" class="accordion-collapse collapse show" aria-labelledby="headingChildren-Dry-Cut" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseChildren-Dry-Cut" class="accordion-collapse collapse" aria-labelledby="headingChildren-Dry-Cut" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   This service is for children aged 2 to 12 years of age.
                 </div>
@@ -675,11 +693,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingBaby-Cut">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBaby-Cut" aria-expanded="true" aria-controls="collapseBaby-Cut">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBaby-Cut" aria-expanded="false" aria-controls="collapseBaby-Cut">
                   Baby Cut - £5
                 </button>
               </h2>
-              <div id="collapseBaby-Cut" class="accordion-collapse collapse show" aria-labelledby="headingBaby-Cut" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseBaby-Cut" class="accordion-collapse collapse" aria-labelledby="headingBaby-Cut" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   This is for babies up to the age of 2 years old.
                 </div>
@@ -687,11 +705,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingBlow-Dry">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlow-Dry" aria-expanded="true" aria-controls="collapseBlow-Dry">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlow-Dry" aria-expanded="false" aria-controls="collapseBlow-Dry">
                   Blow Dry - £25
                 </button>
               </h2>
-              <div id="collapseBlow-Dry" class="accordion-collapse collapse show" aria-labelledby="headingBlow-Dry" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseBlow-Dry" class="accordion-collapse collapse" aria-labelledby="headingBlow-Dry" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   From straight to glamorous curls and waves this is for you if you are headed somewhere fancy!
                 </div>
@@ -699,11 +717,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingCurls">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCurls" aria-expanded="true" aria-controls="collapseCurls">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCurls" aria-expanded="false" aria-controls="collapseCurls">
                   Curls - £24
                 </button>
               </h2>
-              <div id="collapseCurls" class="accordion-collapse collapse show" aria-labelledby="headingCurls" data-bs-parent="#accordionC&BD-Services">
+              <div id="collapseCurls" class="accordion-collapse collapse" aria-labelledby="headingCurls" data-bs-parent="#accordionCBD-Services">
                 <div class="accordion-body">
                   "If you would like your hair curled for an occasion please come with clean dry hair. From waves, barrel tong curls, to straightener curls, there are a variety of ways to style your hair! Inspirational pictures welcome! Eleven Australia styling products used throughout."
                 </div>
@@ -711,7 +729,11 @@
             </div>
           </div>
       </div>
-
+    </div>
+    <div class="heading">
+      <h3>Male Hair Replacement Services</h3>
+    </div>
+    <div class="container">
       <div id="Male-Hair-Replace" class="tabcontent">
         <div class="accordion" id="accordionMale-Hair-Replace">
             <div class="accordion-item">
@@ -728,6 +750,8 @@
             </div>
           </div>
       </div>
+    </div>
+  </section>
     <footer>
         <div class="footer">
           <a href="https://www.facebook.com/theskyparloursalon" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -754,29 +778,5 @@
           }
         }
         </script>
-
-    <!-- Script for vertical tabs from w3schools -->
-    <script>
-        function openCity(evt, cityName) {
-        // Declare all variables
-        var i, tabcontent, tablinks;
-
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Get all elements with class="tablinks" and remove the class "active"
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab, and add an "active" class to the link that opened the tab
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-        }
-    </script>
 </body>
 </html>

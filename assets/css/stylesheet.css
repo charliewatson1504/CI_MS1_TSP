@@ -60,7 +60,6 @@ h1, h2 {
     color: black;
     font-weight: 600;
     border: black 1px solid;
-    
 }
 
 .btn {
@@ -136,46 +135,26 @@ h1, h2 {
     padding: 1rem 4rem;
 }
 
-/* vertical tabs on services page */
+/* Services page */
 
-* {box-sizing: border-box}
-
-.tab {
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
+.heading {
+    text-align: center;
+    margin: 2rem auto;
 }
 
-.tab button {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
+.container {
+    display: block;
+    margin: 2rem;
+    margin: auto;
 }
 
-.tab button:hover {
-  background-color: #ddd;
+.accordion-button:not(.collapsed) {
+    color: black;
+    background:rgba(0, 0, 0, 0.2)
 }
 
-.tab button.active {
-  background-color: #ccc;
-}
-
-.tabcontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: 300px;
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
 }
 
 /* Footer */
