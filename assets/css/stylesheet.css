@@ -171,6 +171,34 @@ h1, h2 {
     width: 100%;
 }
 
+/* Contact Us Page */
+
+#contact-us {
+    margin-top: 2rem;
+}
+
+#contact-form {
+    background: rgba(0, 0, 0, 0.2);
+    margin: auto 2rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+#contact-form h2 {
+    text-align: center;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.map-responsive iframe {
+    height:100%;
+    width:100%;
+}
+
 /* Footer */
 
 .footer {
