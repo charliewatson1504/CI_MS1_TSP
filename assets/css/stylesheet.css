@@ -25,16 +25,32 @@ h1, h2 {
 /* Header */
 
 .header-img {
-    background: url(../images/header_image.jpg) no-repeat center 0;
+    background: url(../images/header-img.jpg) no-repeat center center;
     height: 400px;
     width: 100%;
     top: 0px;
 }
 
+@media screen and (max-width: 600px) {
+    .header-img {
+        background: url(../images/small-header-img.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
+
 /* Navbar */
 
 .navbar {
-    background: url('../images/nav-background.jpg') no-repeat center 0;
+    background: url('../images/nav-img.jpg') no-repeat center 0;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        background: url(../images/small-nav-img.jpg) no-repeat center center;
+        background-size: contain;   
+        padding: 0;
+        background-size: cover;    
+    }
 }
 
 .navbar-collapse.collapse.show {
@@ -124,6 +140,30 @@ h1, h2 {
     padding-top: 2rem;
 }
 
+@media screen and (max-width: 800px) {
+    .home-container img {
+        height: 400px;
+        max-width: 100%;
+    }
+    .home-container {
+        margin: 1em;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-container img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .home-container {
+        margin: 1em;
+        display: block;
+    }
+}
+
 /* Reviews Section */
 
 .reviews div h2,
@@ -171,6 +211,18 @@ h1, h2 {
     width: 100%;
 }
 
+@media screen and (max-width: 900px) {
+    #gallery {
+    column-count: 3;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #gallery {
+    column-count: 2;
+    }
+}
+
 /* Contact Us Page */
 
 #contact-us {
@@ -192,6 +244,10 @@ h1, h2 {
 #contact-form textarea {
     width: 100%;
     margin: 1rem auto;
+}
+
+.map-responsive {
+    flex-grow: 3;
 }
 
 .map-responsive iframe {
