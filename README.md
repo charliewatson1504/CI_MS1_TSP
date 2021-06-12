@@ -8,7 +8,7 @@ This project is built for The Sky Parlour is a private hair salon in Consett, Co
 
 ![Main Mockup - placeholder](#)
 
-[Link to live site - placeholder](#)
+[Link to live site - placeholder](https://charliewatson1504.github.io/CI_MS1_TSP/)
 
 ---
 
