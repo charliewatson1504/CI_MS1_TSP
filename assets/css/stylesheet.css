@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;700&display=swap');
 
+/**********************  
+    Table of Contents
+    1. Global styles
+    2. Navbar
+    3. Modal
+    4. Hero image
+    5. Buttons
+    6. Flexbox
+**********************/
+
+/* 1. Global styles */
+
 :root {
     --clr-neutral-900: hsl(0, 0%, 30%);
     --clr-neutral-100: hsl(0, 0%, 100%);
@@ -8,7 +20,14 @@
     --gradient: linear-gradient(90deg, #cdf7b8, #b0e6f2, #cac0fc, #e3c0f6, #f6bab0, #faeba8)
 }
 
-html, body {
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+html, 
+body {
     font-family: 'Spectral', sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -20,15 +39,14 @@ html, body {
     color: var(--clr-neutral-900);
 }
 
-/* Headings */
-
-h1, h2 {
+h1, 
+h2 {
     font-family: 'Sepctral', sans-serif;
     font-weight: 700;
     color: var(--clr-neutral-900);
 }
 
-/* Navbar */
+/* 2. Navbar */
 
 .navbar-brand img {
     width: 5rem;
@@ -63,7 +81,7 @@ h1, h2 {
     background: var(--clr-neutral-900);
 }
 
-/* Modal */
+/* 3. Modal */
 
 .forminput {
     width: 100%;
@@ -78,14 +96,14 @@ h1, h2 {
     background: rgba(255, 0, 0, 0.445);
 }
 
-/* index hero image */
-
 #homepage-hero {
     background: url(/assets/images/hero.jpg) no-repeat center center;
     background-size: cover;
     height: 15rem;
     width: 100%;
 }
+
+/* 4. Hero image */
 
 .hero {
     background: rgba(0, 0, 0, .3);
@@ -99,6 +117,8 @@ h1, h2 {
     color: var(--clr-neutral-100);
     text-align: center;
 }
+
+/* 5. Buttons */
 
 .btn {
     background: var(--gradient);
@@ -123,11 +143,7 @@ h1, h2 {
     color: var(--clr-neutral-100);
 }
 
-/* Homepage Information Section */
-
-#welcome-title {
-    padding-top: 5rem;
-}
+/* 6. Flexbox */
 
 .home-container {
     margin: 1em;
