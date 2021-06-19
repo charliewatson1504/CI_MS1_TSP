@@ -8,6 +8,7 @@
     4. Hero image
     5. Buttons
     6. Home Container
+    7. Reviews Carousel
 **********************/
 
 /* 1. Global styles */
@@ -171,16 +172,16 @@ h2 {
     box-shadow: var(--clr-neutral-900);
 }
 
-/* Reviews Section */
+/* 7. Reviews Carousel */
 
-.reviews div h2,
-.reviews div p {
-    text-align: center;
+.carousel {
+    background: url(/assets/images/reviews-bg.jpg) no-repeat center center;
+    background-size: contain;
 }
 
 .carousel-item {
     text-align: center;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
 }
 
 /* Services page */
