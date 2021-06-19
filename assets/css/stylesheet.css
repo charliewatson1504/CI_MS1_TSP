@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;700&display=swap');
 
+:root {
+    --clr-neutral-900: hex(#707070);
+    --clr-neutrak-100: hsl(0, 0%, 100%);
+    --clr-accent-400: hex(#D5BEF8);
+}
+
 html, body {
     font-family: 'Spectral', sans-serif;
     font-weight: 300;
