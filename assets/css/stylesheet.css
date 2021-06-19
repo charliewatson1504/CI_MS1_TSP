@@ -40,9 +40,6 @@ h1, h2 {
 
 /* Navbar */
 
-.navbar {
-    background: url('../images/nav-img.jpg') no-repeat center 0;
-}
 
 @media screen and (max-width: 600px) {
     .navbar {
@@ -55,6 +52,11 @@ h1, h2 {
 
 .navbar-collapse.collapse.show {
     padding-top: 60px;
+}
+
+.navbar-brand img {
+    width: 3rem;
+    height: 3rem;
 }
 
 .nav-link {
