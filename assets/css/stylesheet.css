@@ -40,70 +40,9 @@ h1, h2 {
 
 /* Navbar */
 
-
-@media screen and (max-width: 600px) {
-    .navbar {
-        background: url(../images/small-nav-img.jpg) no-repeat center center;
-        background-size: contain;   
-        padding: 0;
-        background-size: cover;    
-    }
-}
-
-.navbar-collapse.collapse.show {
-    padding-top: 60px;
-}
-
 .navbar-brand img {
     width: 3rem;
     height: 3rem;
-}
-
-.nav-link {
-    color: white;
-    font-weight: 500;
-    font-size: 1.2rem;
-    align-content: center;
-    border: 1px white solid;
-    background: border-box rgba(0, 0, 0, 0.2);
-    margin: 0.2rem;
-    border-radius: 5px;
-}
-
-.nav-link:hover {
-    color: black;
-    border-bottom: black 1px solid;
-}
-
-.nav-link.active {
-    color: black;
-    font-weight: 600;
-    border: black 1px solid;
-}
-
-.btn {
-    color: white;
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px white solid;
-    font-size: 1.3em;
-}
-
-.btn:hover {
-    color: black;
-    background: rgba(216, 216, 216, 0.2);
-    border: 1px black solid;
-}
-
-.bookingform {
-    align-content: center;
-    padding: 1rem;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: .5rem 0;
 }
 
 /* Modal */
