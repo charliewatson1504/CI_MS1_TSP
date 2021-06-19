@@ -34,12 +34,31 @@ h1, h2 {
 }
 
 .navbar-toggler {
-    background: var(--clr-neutral-900);
+    background: var(--clr-accent-400);
 }
 
 .fa-bars {
     font-size: 2.5rem;
     color: var(--clr-neutral-100);
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--clr-neutral-900);
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: var(--clr-neutral-900);
 }
 
 /* Modal */
