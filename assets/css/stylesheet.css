@@ -24,20 +24,6 @@ h1, h2 {
 
 /* Header */
 
-.header-img {
-    background: url(../images/header-img.jpg) no-repeat center center;
-    height: 400px;
-    width: 100%;
-    top: 0px;
-}
-
-@media screen and (max-width: 600px) {
-    .header-img {
-        background: url(../images/small-header-img.jpg) no-repeat center center;
-        background-size: cover;
-    }
-}
-
 /* Navbar */
 
 .navbar-brand img {
