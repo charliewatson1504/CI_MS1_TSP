@@ -150,38 +150,8 @@ h2 {
     display: flex;
 }
 
-.home-container img {
+.home-item img {
     height: 400px;
-}
-
-.text-box {
-    flex-grow: 2;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-@media screen and (max-width: 800px) {
-    .home-container img {
-        height: 400px;
-        max-width: 100%;
-    }
-    .home-container {
-        margin: 1em;
-        display: block;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .home-container img {
-        height: auto;
-        max-width: 100%;
-    }
-
-    .home-container {
-        margin: 1em;
-        display: block;
-    }
 }
 
 /* Reviews Section */
