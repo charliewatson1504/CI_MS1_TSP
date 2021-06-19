@@ -76,6 +76,39 @@ h1, h2 {
     background: rgba(255, 0, 0, 0.445);
 }
 
+/* index hero image */
+
+#homepage-hero {
+    background: url(/assets/images/hero.jpg) no-repeat center center;
+    background-size: cover;
+    height: 15rem;
+    width: 100%;
+}
+
+.hero {
+    background: rgba(0, 0, 0, .3);
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.hero h1 {
+    color: var(--clr-neutral-100);
+    text-align: center;
+}
+
+.hero .btn {
+    background: var(--clr-accent-400);
+    width: max-content;
+    align-self: center;
+    margin-top: auto;
+}
+
+.btn {
+
+}
+
 /* Homepage Information Section */
 
 #welcome-title {
