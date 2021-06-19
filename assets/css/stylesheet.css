@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;700&display=swap');
 
 :root {
-    --clr-neutral-900: hex(#707070);
-    --clr-neutrak-100: hsl(0, 0%, 100%);
-    --clr-accent-400: hex(#D5BEF8);
+    --clr-neutral-900: hsl(0, 0%, 30%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-accent-400: #D5BEF8;
 }
 
 html, body {
@@ -15,10 +15,7 @@ html, body {
     border: none;
     top: 0;
     left: 0;
-}
-
-.hidden {
-    display: none;
+    color: var(--clr-neutral-900);
 }
 
 /* Headings */
@@ -26,15 +23,23 @@ html, body {
 h1, h2 {
     font-family: 'Sepctral', sans-serif;
     font-weight: 700;
+    color: var(--clr-neutral-900);
 }
-
-/* Header */
 
 /* Navbar */
 
 .navbar-brand img {
     width: 5rem;
     height: 5rem;
+}
+
+.navbar-toggler {
+    background: var(--clr-neutral-900);
+}
+
+.fa-bars {
+    font-size: 2.5rem;
+    color: var(--clr-neutral-100);
 }
 
 /* Modal */
