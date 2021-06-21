@@ -9,6 +9,7 @@
     5. Buttons
     6. Home Container
     7. Reviews Carousel
+    8. Services Page
 **********************/
 
 /* 1. Global styles */
@@ -45,6 +46,10 @@ h2 {
     font-family: 'Sepctral', sans-serif;
     font-weight: 700;
     color: var(--clr-neutral-900);
+}
+
+#services h1 {
+    text-align: center;    
 }
 
 /* 2. Navbar */
@@ -185,6 +190,30 @@ h2 {
     text-align: center;
     padding: 1rem 2rem;
     color: var(--clr-neutral-100);
+}
+
+/* 8. Services Page */
+
+.card {
+    align-items: center;
+    margin: 1rem 3rem;
+    padding: 1rem;
+}
+
+.card-content {
+    margin: 26rem 0 0 0;
+    text-align: center;
+}
+
+#consultations {
+    background: url(/assets/images/consultation-service.JPG) no-repeat;
+    background-size: contain;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed)::after {
+    background-color: var(--clr-accent-400);
+    color: var(--clr-neutral-900);
 }
 
 /* Contact Us Page */
