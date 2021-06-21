@@ -94,187 +94,105 @@
     </header>
   <section id="services">
     <h1>Services</h1>
-    <h3>Featured</h3>
-    <div class="container">
-      <div id="Featured" class="tabcontent">
-        <div class="accordion" id="accordionFeatured">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFeaturedCS-long">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedCS-long" aria-expanded="true" aria-controls="collapseFeaturedCS-long">
-                Cut and Style - Long Hair - £34
-              </button>
-            </h2>
-            <div id="collapseFeaturedCS-long" class="accordion-collapse collapse show" aria-labelledby="headingFeaturedCS-long" data-bs-parent="#accordionFeatured">
-              <div class="accordion-body">
-                This is for anyone with a short bob and longer hair! Here at the Sky Parlour Salon all our services are non-gender specific.
+    <div class="card" id="featured">
+      <div class="card-content">
+        <h3 class="card-title">Consultations</h3>
+        <p class="card-body">Come in and discuss your requirements!</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#consultationsModal">Find out more!</button>
+        <!-- Modal -->
+        <div class="modal fade" id="consultationsModal" tabindex="-1" aria-labelledby="consultationsModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="consultationsModalLabel">Consultations</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFeaturedBalayage">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedBalayage" aria-expanded="false" aria-controls="collapseFeaturedBalayage">
-                Balayage - From £48
-              </button>
-            </h2>
-            <div id="collapseFeaturedBalayage" class="accordion-collapse collapse" aria-labelledby="headingFeaturedBalayage" data-bs-parent="#accordionFeatured">
-              <div class="accordion-body">
-                Balayage is a hair painting technique that is perfect for anyone who wants a gorgeous but low maintenance colour.
-                Balayage is a technique that only needs to be done once or twice a year and can be maintained with root taps and toners along side trims.
-                <br>  
-                This service includes Olaplex to improve your hair strength and colour longevity. 
-                <br>    
-                If I need to use more colour than expected an extra charge will be applied but it will only be for the exact amount extra needed! Not a penny more. 
-                <br>
-                *All clients need a patch test before EVERY single colour service. Please contact me if you live further out of Consett as there is a solution for which you do not need to travel to me 2 days before every colour appointment. 
+              <div class="modal-body">
+                <div class="container">
+                  <div id="Consultations" class="tabcontent">
+                  <div class="accordion" id="accordionConsultations">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingPatch-test-appt">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePatch-test-appt" aria-expanded="true" aria-controls="collapsePatch-test-appt">
+                          ColourStart Passport Patch Test - £16
+                        </button>
+                      </h2>
+                      <div id="collapsePatch-test-appt" class="accordion-collapse collapse show" aria-labelledby="headingPatch-test-appt" data-bs-parent="#accordionConsultations">
+                        <div class="accordion-body">
+                          ColourStart Passports are for clients who live too far away to come in 48 hrs before every colour appointment. 
+                          The patch test is a one off £15 plus P&P and are very easy to use. You only ever need to buy 1 in most circumstances. 
+                          <br>
+                          Once you’ve bought and received your passport patch test, you will download the app and answer a series of questions. If you receive an amber tick you may use the patch test and then if you have no reaction you can simply use the app to answer the questions prior to each colour appointment. 
+                          <br>
+                          Please get in touch if you have any questions. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingPatch-test">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePatch-test" aria-expanded="false" aria-controls="collapsePatch-test">
+                          Pre-appointment Patch Test - Free
+                        </button>
+                      </h2>
+                      <div id="collapsePatch-test" class="accordion-collapse collapse" aria-labelledby="headingPatch-test" data-bs-parent="#accordionConsultations">
+                        <div class="accordion-body">
+                          Book this if you are popping in for your regular patch test 48 hrs before your colour appointment.
+                          <br>
+                          Unfortunately this is required, by law, before every single colour appointment now. Thank you.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingRegular-consultation">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegular-consultation" aria-expanded="false" aria-controls="collapseRegular-consultation">
+                          Regular Consultation - Free
+                        </button>
+                      </h2>
+                      <div id="collapseRegular-consultation" class="accordion-collapse collapse" aria-labelledby="headingRegular-consultation" data-bs-parent="#accordionConsultations">
+                        <div class="accordion-body">
+                          If you have not been to The Sky Parlour before please book a patch test and consultation at least 48 hours BEFORE your colour appointment. I may also do a strand test which consists of me taking a sample of your hair to test. Without an up to date patch test I cannot carry out your services. If you would like to discuss your hair ideas at length please feel free to book the extra long consult time at £15 for 30 minutes and I'd be happy accommodate you. Thank you.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTransformation-consultation">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTransformation-consultation" aria-expanded="false" aria-controls="collapseTransformation-consultation">
+                          Transformation Consultation - Free
+                        </button>
+                      </h2>
+                      <div id="collapseTransformation-consultation" class="accordion-collapse collapse" aria-labelledby="headingTransformation-consultation" data-bs-parent="#accordionConsultations">
+                        <div class="accordion-body">
+                          If you have not been to The Sky Parlour before please book a patch test and consultation at least 48 hours BEFORE your colour appointment. I may also do a strand test which consists of me taking a sample of your hair to test. Without an up to date patch test I cannot carry out your services. If you would like to discuss your hair ideas at length please feel free to book the extra long consult time at £15 for 30 minutes and I'd be happy accommodate you. Thank you.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingRainbow-consultation">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRainbow-consultation" aria-expanded="false" aria-controls="collapseRainbow-consultation">
+                          Rainbow Colour Consultation  - Free
+                        </button>
+                      </h2>
+                      <div id="collapseRainbow-consultation" class="accordion-collapse collapse" aria-labelledby="headingRainbow-consultation" data-bs-parent="#accordionConsultations">
+                        <div class="accordion-body">
+                          If you have not been to The Sky Parlour before please book a patch test and consultation at least 48 hours BEFORE your colour appointment. I may also do a strand test which consists of me taking a sample of your hair to test. Without an up to date patch test I cannot carry out your services. If you would like to discuss your hair ideas at length please feel free to book the extra long consult time at £15 for 30 minutes and I'd be happy accommodate you. Thank you.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFeaturedToner">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedToner" aria-expanded="false" aria-controls="collapseFeaturedToner">
-                Toner - From £15
-              </button>
-            </h2>
-            <div id="collapseFeaturedToner" class="accordion-collapse collapse" aria-labelledby="headingFeaturedToner" data-bs-parent="#accordionFeatured">
-              <div class="accordion-body">
-                If you’re a blonde you are probably used to having a toner to maximise your blonde potential. Toners are colours that change the tone of the hair. I.E a toner can cancel out warm, yellow tones or change your blonde to a beautiful rose gold. 
-                Please note - It will take about an extra 15 minutes.
-                <br>
-                This service includes Brazilian Bond Builder  to improve your hair strength and colour longevity. 
-                <br>
-                If I need to use more colour than expected an extra charge will be applied but it will only be for the exact amount extra needed! Not a penny more. 
-                <br>
-                *All clients need a patch test before EVERY single colour service. Please contact me if you live further out of Consett as there is a solution for which you do not need to travel to me 2 days before every colour appointment. 
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFeaturedFull-Head-Highlights">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedFull-Head-Highlights" aria-expanded="false" aria-controls="collapseFeaturedFull-Head-Highlights">
-                Full Head Highlights - From £52
-              </button>
-            </h2>
-            <div id="collapseFeaturedFull-Head-Highlights" class="accordion-collapse collapse" aria-labelledby="headingFeaturedFull-Head-Highlights" data-bs-parent="#accordionFeatured">
-              <div class="accordion-body">
-                This colouring technique covers bleach, tint or a combination of the two in foils. If you have previously had highlights and now need your roots refreshed you will still need to book for highlights. 
-                <br>
-                This service includes Olaplex to improve your hair strength and colour longevity. 
-                <br>
-                If I need to use more colour than expected an extra charge will be applied but it will only be for the exact amount extra needed! Not a penny more. 
-                <br>
-                *All clients need a patch test before EVERY single colour service. Please contact me if you live further out of Consett as there is a solution for which you do not need to travel to me 2 days before every colour appointment. 
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFeaturedRoot-Regrowth">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedRoot-Regrowth" aria-expanded="false" aria-controls="collapseFeaturedRoot-Regrowth">
-                Root Regrowth - From £20
-              </button>
-            </h2>
-            <div id="collapseFeaturedRoot-Regrowth" class="accordion-collapse collapse" aria-labelledby="headingFeaturedRoot-Regrowth" data-bs-parent="#accordionFeatured">
-              <div class="accordion-body">
-                If you have a colour painted straight onto your scalp and need a root touch up this is the service to book. 
-                <br>
-                This service includes Brazilian Bond Builder  to improve your hair strength and colour longevity. 
-                <br>
-                If I need to use more colour than expected an extra charge will be applied but it will only be for the exact amount extra needed! Not a penny more. 
-                <br>
-                *All clients need a patch test before EVERY single colour service. Please contact me if you live further out of Consett as there is a solution for which you do not need to travel to me 2 days before every colour appointment. 
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFeaturedCS-short">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFeaturedCS-short" aria-expanded="false" aria-controls="collapseFeaturedCS-short">
-              Cut and Style - Short Hair - £25
-            </button>
-          </h2>
-          <div id="collapseFeaturedCS-short" class="accordion-collapse collapse" aria-labelledby="headingFeaturedCS-short" data-bs-parent="#accordionFeatured">
-            <div class="accordion-body">
-              This is for you if you have a short back and sides or a super short pixie crop! Here at The Sky Parlour Salon all our services are non-gender specific.
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
+
     <div class="heading">
       <h3>Consultations and Patch Tests</h3>
     </div>
-    <div class="container">
-      <div id="Consultations" class="tabcontent">
-        <div class="accordion" id="accordionConsultations">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingPatch-test-appt">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePatch-test-appt" aria-expanded="true" aria-controls="collapsePatch-test-appt">
-                ColourStart Passport Patch Test - £16
-              </button>
-            </h2>
-            <div id="collapsePatch-test-appt" class="accordion-collapse collapse show" aria-labelledby="headingPatch-test-appt" data-bs-parent="#accordionConsultations">
-              <div class="accordion-body">
-                ColourStart Passports are for clients who live too far away to come in 48 hrs before every colour appointment. 
-                The patch test is a one off £15 plus P&P and are very easy to use. You only ever need to buy 1 in most circumstances. 
-                <br>
-                Once you’ve bought and received your passport patch test, you will download the app and answer a series of questions. If you receive an amber tick you may use the patch test and then if you have no reaction you can simply use the app to answer the questions prior to each colour appointment. 
-                <br>
-                Please get in touch if you have any questions. 
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingPatch-test">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePatch-test" aria-expanded="false" aria-controls="collapsePatch-test">
-                Pre-appointment Patch Test - Free
-              </button>
-            </h2>
-            <div id="collapsePatch-test" class="accordion-collapse collapse" aria-labelledby="headingPatch-test" data-bs-parent="#accordionConsultations">
-              <div class="accordion-body">
-                Book this if you are popping in for your regular patch test 48 hrs before your colour appointment.
-                <br>
-                Unfortunately this is required, by law, before every single colour appointment now. Thank you.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingRegular-consultation">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRegular-consultation" aria-expanded="false" aria-controls="collapseRegular-consultation">
-                Regular Consultation - Free
-              </button>
-            </h2>
-            <div id="collapseRegular-consultation" class="accordion-collapse collapse" aria-labelledby="headingRegular-consultation" data-bs-parent="#accordionConsultations">
-              <div class="accordion-body">
-                If you have not been to The Sky Parlour before please book a patch test and consultation at least 48 hours BEFORE your colour appointment. I may also do a strand test which consists of me taking a sample of your hair to test. Without an up to date patch test I cannot carry out your services. If you would like to discuss your hair ideas at length please feel free to book the extra long consult time at £15 for 30 minutes and I'd be happy accommodate you. Thank you.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTransformation-consultation">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTransformation-consultation" aria-expanded="false" aria-controls="collapseTransformation-consultation">
-                Transformation Consultation - Free
-              </button>
-            </h2>
-            <div id="collapseTransformation-consultation" class="accordion-collapse collapse" aria-labelledby="headingTransformation-consultation" data-bs-parent="#accordionConsultations">
-              <div class="accordion-body">
-                If you have not been to The Sky Parlour before please book a patch test and consultation at least 48 hours BEFORE your colour appointment. I may also do a strand test which consists of me taking a sample of your hair to test. Without an up to date patch test I cannot carry out your services. If you would like to discuss your hair ideas at length please feel free to book the extra long consult time at £15 for 30 minutes and I'd be happy accommodate you. Thank you.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingRainbow-consultation">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRainbow-consultation" aria-expanded="false" aria-controls="collapseRainbow-consultation">
-                Rainbow Colour Consultation  - Free
-              </button>
-            </h2>
-            <div id="collapseRainbow-consultation" class="accordion-collapse collapse" aria-labelledby="headingRainbow-consultation" data-bs-parent="#accordionConsultations">
-              <div class="accordion-body">
-                If you have not been to The Sky Parlour before please book a patch test and consultation at least 48 hours BEFORE your colour appointment. I may also do a strand test which consists of me taking a sample of your hair to test. Without an up to date patch test I cannot carry out your services. If you would like to discuss your hair ideas at length please feel free to book the extra long consult time at £15 for 30 minutes and I'd be happy accommodate you. Thank you.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <div class="heading">
       <h3>Packages</h3>
     </div>
