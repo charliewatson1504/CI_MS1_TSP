@@ -197,15 +197,35 @@ h2 {
 .card {
     align-items: center;
     margin: 1rem 2rem 3rem;
-    padding-top: 1rem;
     border: none;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
 }
 
 .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     text-align: center;
     background: white;
     width: 100%;
-    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+#consultations {
+    background: url(/assets/images/consultation-service.JPG) center;
+    background-size: cover;
+}
+
+#packages {
+    background: url(/assets/images/packages-service.JPG);
+    background-size: cover;
+}
+
+.card-content h3,
+.card-content p {
+    padding: 0.5rem;
 }
 
 .accordion-button:not(.collapsed),
