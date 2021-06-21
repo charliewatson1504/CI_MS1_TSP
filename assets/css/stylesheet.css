@@ -174,7 +174,7 @@ h2 {
 
 /* 7. Reviews Carousel */
 
-.carousel {
+.review-container {
     background: url(/assets/images/reviews-bg.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
