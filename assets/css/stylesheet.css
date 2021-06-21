@@ -196,24 +196,32 @@ h2 {
 
 .card {
     align-items: center;
-    margin: 1rem 3rem;
-    padding: 1rem;
+    margin: 1rem 2rem 3rem;
+    padding-top: 1rem;
+    border: none;
 }
 
 .card-content {
     margin: 26rem 0 0 0;
     text-align: center;
-}
-
-#consultations {
-    background: url(/assets/images/consultation-service.JPG) no-repeat;
-    background-size: contain;
+    background: white;
+    width: 100%;
+    padding: 1rem;
 }
 
 .accordion-button:not(.collapsed),
 .accordion-button:not(.collapsed)::after {
     background-color: var(--clr-accent-400);
     color: var(--clr-neutral-900);
+}
+
+#consultations {
+    background: url(/assets/images/consultation-service.JPG) no-repeat;
+    background-size: cover;
+}
+
+#packages {
+    background: url(/assets/images/packages-service.JPG) no-repeat;
 }
 
 /* Contact Us Page */
