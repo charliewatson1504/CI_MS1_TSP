@@ -243,8 +243,7 @@ h2 {
     padding: 0.5rem;
 }
 
-.accordion-button:not(.collapsed),
-.accordion-button:not(.collapsed)::after {
+.accordion-button:not(.collapsed) {
     background-color: var(--clr-accent-400);
     color: var(--clr-neutral-900);
 }
