@@ -202,7 +202,6 @@ h2 {
 }
 
 .card-content {
-    margin: 26rem 0 0 0;
     text-align: center;
     background: white;
     width: 100%;
@@ -213,15 +212,6 @@ h2 {
 .accordion-button:not(.collapsed)::after {
     background-color: var(--clr-accent-400);
     color: var(--clr-neutral-900);
-}
-
-#consultations {
-    background: url(/assets/images/consultation-service.JPG) no-repeat;
-    background-size: cover;
-}
-
-#packages {
-    background: url(/assets/images/packages-service.JPG) no-repeat;
 }
 
 /* Contact Us Page */
