@@ -187,12 +187,6 @@ h2 {
     color: var(--clr-neutral-100);
 }
 
-/* Services page */
-
-
-/* gallery */
-
-
 /* Contact Us Page */
 
 #contact-us {
@@ -227,16 +221,22 @@ h2 {
 
 /* Footer */
 
-.footer {
-    margin-top: 3rem;
+.footer-container {
+    margin-top: 2rem;
     border-top: 2px black solid;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item {
     padding: 1rem;
-    font-size: 3rem;
     text-align: center;
 }
 
-.footer a {
-    padding: 2rem;
+.footer-item a {
     color: black;
+    font-size: 2rem;
+    padding-left: 1rem;
 }
