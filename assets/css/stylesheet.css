@@ -219,9 +219,16 @@ h2 {
 }
 
 #packages {
-    background: url(/assets/images/packages-service.JPG);
+    background: url(/assets/images/packages-service.JPG) center;
     background-size: cover;
 }
+
+#colouring {
+    background: url(/assets/images/colouring-service.jpg) center;
+    background-size: cover;
+}
+
+
 
 .card-content h3,
 .card-content p {
