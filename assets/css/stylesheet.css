@@ -10,6 +10,7 @@
     6. Home Container
     7. Reviews Carousel
     8. Services Page
+    9. Gallery
 **********************/
 
 /* 1. Global styles */
@@ -246,6 +247,21 @@ h2 {
 .accordion-button:not(.collapsed) {
     background-color: var(--clr-accent-400);
     color: var(--clr-neutral-900);
+}
+
+/* 9. Gallery */
+
+.gallery-container {
+    background: var(--clr-accent-400);
+    text-align: center;
+}
+
+.box-item {
+    background: var(--clr-neutral-100);
+    padding: 0.25rem;
+    margin: 0.25rem;
+    height: auto;
+    width: 95%;
 }
 
 /* Contact Us Page */
