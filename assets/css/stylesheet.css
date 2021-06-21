@@ -280,30 +280,31 @@ h2 {
     margin-top: 2rem;
 }
 
-#contact-form {
-    background: rgba(0, 0, 0, 0.2);
+.contact-form {
+    background: var(--clr-accent-400);
     margin: auto 2rem;
     padding: 1rem 2rem;
     border-radius: 5px;
 }
 
-#contact-form h2 {
+.contact-form h2 {
     text-align: center;
 }
 
-#contact-form input,
-#contact-form textarea {
+input,
+textarea {
     width: 100%;
     margin: 1rem auto;
 }
 
-.map-responsive {
-    flex-grow: 3;
+.btn-alt {
+    width: 50%;
+    margin-left: 25%;
 }
 
 .map-responsive iframe {
-    height:100%;
-    width:100%;
+    width: 100%;
+    height: auto;
 }
 
 /* Footer */
