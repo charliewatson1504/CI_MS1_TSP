@@ -233,6 +233,11 @@ h2 {
     background-size: cover;
 }
 
+#cut-blow-dry {
+    background: url(/assets/images/cut-service.JPG) center;
+    background-size: cover;
+}
+
 .card-content h3,
 .card-content p {
     padding: 0.5rem;
