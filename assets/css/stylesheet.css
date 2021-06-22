@@ -102,7 +102,28 @@ h2 {
     }
 }
 
-@media screen and (min-width: 991px) {
+@media (min-width: 991px) {
+    .navbar {
+        margin: 2rem;
+    }
+    .navbar-nav {
+        flex-grow: 1;
+        justify-content: center;
+    }
+    .nav-link {
+        margin-left: 2rem;
+        font-size: 1.5em;
+    }
+    .nav-link::after{
+        display: none;
+    }
+    .nav-link:hover,
+    .active {
+        color: var(--clr-neutral-100);
+        background: var(--clr-accent-400);
+        box-shadow: var(--clr-neutral-900);
+        border-radius: 7%;
+    }
     .navbar .d-none {
         display: inline-block !important;
     }    
