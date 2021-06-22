@@ -102,6 +102,12 @@ h2 {
     }
 }
 
+@media screen and (min-width: 991px) {
+    .navbar .d-none {
+        display: inline-block !important;
+    }    
+}
+
 /* 3. Modal */
 
 .forminput {
