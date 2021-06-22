@@ -118,6 +118,12 @@ h2 {
     width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+    #homepage-hero {
+        height: 25rem;
+    }
+}
+
 .hero {
     background: rgba(0, 0, 0, .3);
     height: inherit;
@@ -204,9 +210,11 @@ h2 {
 }
 
 .carousel-item {
+    margin-left: 10%;
     text-align: center;
     padding: 1rem 2rem;
     color: var(--clr-neutral-100);
+    width: 80%;
 }
 
 /* 8. Services Page */
