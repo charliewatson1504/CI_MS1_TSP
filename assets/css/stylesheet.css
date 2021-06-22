@@ -135,11 +135,12 @@ h2 {
     width: 100%;
 }
 
-.btn-primary{
+.modal-footer .btn-primary{
     color: black;
+    background: rgba(0, 128, 0, 0.384);
 }
 
-.btn-secondary{
+.modal-footer .btn-secondary{
     color: white;
     background: rgba(255, 0, 0, 0.445);
 }
@@ -357,10 +358,6 @@ h2 {
 @media (min-width: 991px) {
     .card {
         flex-basis: 25%;
-        transition: transform 500ms ease;
-    }
-    .card:hover {
-        transform: scale(1.10);
     }
     #services {
         padding-left: 0;
