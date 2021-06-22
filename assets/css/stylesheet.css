@@ -233,7 +233,7 @@ h2 {
         flex-grow: 1;
     }
     .home-item h2 {
-        margin-top: 10rem;
+        margin-top: 20%;
     }
     .home-item .home-item {
         margin-left: auto;
@@ -241,7 +241,7 @@ h2 {
         width: max-content;
     }
     .home-item img {
-        max-width: 40rem;
+        max-width: 100%;
         flex-grow: 2;
     }
     .one {
@@ -291,6 +291,22 @@ h2 {
     padding: 1rem 2rem;
     color: var(--clr-neutral-100);
     width: 80%;
+}
+
+@media (min-width: 991px) {
+    .review-container {
+        height: 400px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-size: cover;
+        box-shadow: var(--clr-neutral-900);
+    }
+    .carousel {
+        font-size: 1.5em;
+        margin-top: 5%;
+        margin-bottom: auto;
+    }
 }
 
 /* 8. Services Page */
