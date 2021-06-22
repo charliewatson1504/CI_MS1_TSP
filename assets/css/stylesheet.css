@@ -227,6 +227,34 @@ h2 {
     margin-top: 1.5rem;
 }
 
+@media (min-width: 991px) {
+    .home-item {
+        width: 20rem;
+        flex-grow: 1;
+    }
+    .home-item h2 {
+        margin-top: 10rem;
+    }
+    .home-item .home-item {
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+    }
+    .home-item img {
+        max-width: 40rem;
+        flex-grow: 2;
+    }
+    .one {
+        order: 1;
+    }
+    .two {
+        order: 2;
+    }
+    .three {
+        order: 3;
+    }
+}
+
 .circle-bg img {
     margin-left: 5%;
     width: 90%;
