@@ -96,6 +96,12 @@ h2 {
     background: var(--clr-neutral-900);
 }
 
+@media screen and (min-width: 768px) {
+    .navbar {
+        margin: 1rem;
+    }
+}
+
 /* 3. Modal */
 
 .forminput {
