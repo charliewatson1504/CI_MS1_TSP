@@ -118,7 +118,7 @@ h2 {
         display: none;
     }
     .nav-link:hover,
-    .active {
+    .nav-item .active {
         color: var(--clr-neutral-100);
         background: var(--clr-accent-400);
         box-shadow: var(--clr-neutral-900);
