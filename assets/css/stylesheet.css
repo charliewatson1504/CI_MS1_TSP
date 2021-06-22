@@ -392,11 +392,11 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .footer-item {
     padding: 1rem;
+    width: 50%;
     text-align: center;
 }
 
