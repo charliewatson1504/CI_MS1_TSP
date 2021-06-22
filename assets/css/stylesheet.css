@@ -354,6 +354,20 @@ h2 {
     }
 }
 
+@media (min-width: 991px) {
+    .card {
+        flex-basis: 25%;
+        transition: transform 500ms ease;
+    }
+    .card:hover {
+        transform: scale(1.10);
+    }
+    #services {
+        padding-left: 0;
+        justify-content: center;
+    }
+}
+
 #consultations {
     background: url(/assets/images/consultation-service.JPG) center;
     background-size: cover;
