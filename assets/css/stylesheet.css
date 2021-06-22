@@ -159,6 +159,12 @@ h2 {
     }
 }
 
+@media (min-width: 991px) {
+    #homepage-hero {
+        height: 35rem;
+    }
+}
+
 .hero {
     background: rgba(0, 0, 0, .3);
     height: inherit;
