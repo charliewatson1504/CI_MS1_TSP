@@ -238,6 +238,30 @@ h2 {
     padding-bottom: 1rem;
 }
 
+.card-content h3,
+.card-content p {
+    padding: 0.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--clr-accent-400);
+    color: var(--clr-neutral-900);
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 40%;
+    }
+    #services {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }
+    #services h1 {
+        width: 100%;
+    }
+}
+
 #consultations {
     background: url(/assets/images/consultation-service.JPG) center;
     background-size: cover;
@@ -261,16 +285,6 @@ h2 {
 #cut-blow-dry {
     background: url(/assets/images/cut-service.JPG) center;
     background-size: cover;
-}
-
-.card-content h3,
-.card-content p {
-    padding: 0.5rem;
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: var(--clr-accent-400);
-    color: var(--clr-neutral-900);
 }
 
 /* 9. Gallery */
