@@ -314,6 +314,17 @@ h2 {
     padding: 1rem 2rem 0 2rem;
 }
 
+@media screen and (min-width: 768px) {
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }    
+    .box-item {
+        width: 45%;
+    }
+}
+
 /* Contact Us Page */
 
 #contact-us {
