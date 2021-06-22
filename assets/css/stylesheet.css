@@ -11,6 +11,8 @@
     7. Reviews Carousel
     8. Services Page
     9. Gallery
+    10. Contact us
+    11. Footer
 **********************/
 
 /* 1. Global styles */
@@ -325,10 +327,17 @@ h2 {
     }
 }
 
-/* Contact Us Page */
+/* 10. Contact Us Page */
 
 #contact-us {
     margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    #contact-us {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 .contact-form {
@@ -353,12 +362,23 @@ textarea {
     margin-left: 25%;
 }
 
+@media screen and (min-width: 768px) {
+    #contact-us .map-responsive iframe {
+        height: 100%;
+    }
+
+    #contact-us .map-responsive,
+    #contact-us .home-item {
+        width: 50%;
+    }    
+}
+
 .map-responsive iframe {
     width: 100%;
     height: auto;
 }
 
-/* Footer */
+/* 11. Footer */
 
 .footer-container {
     margin-top: 2rem;
