@@ -196,6 +196,13 @@ h2 {
     background: var(--clr-accent-400);
 }
 
+@media screen and (min-width: 768px) {
+    .circle-bg img {    
+    width: 70%;
+    margin-left: 15%;
+    }
+}
+
 .shadow {
     box-shadow: var(--clr-neutral-900);
 }
