@@ -6,7 +6,7 @@
 
 This project is built for The Sky Parlour is a private hair salon in Consett, County Durham, UK. The idea of the project is to inform new and returning customers to announcements, give details on services offered, showcase the team and their skills and how customers can contact the salon.
 
-![Main Mockup - placeholder](#)
+![Main Mockup - placeholder](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/mockup/the-sky-parlour-mockup.png)
 
 [Link to live site - placeholder](https://charliewatson1504.github.io/CI_MS1_TSP/)
 
