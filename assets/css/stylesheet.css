@@ -20,7 +20,7 @@
 :root {
     --clr-neutral-900: hsl(0, 0%, 30%);
     --clr-neutral-100: hsl(0, 0%, 100%);
-    --clr-accent-400: #D5BEF8;
+    --clr-accent-400: #a988db;
 
     --gradient: linear-gradient(90deg, #cdf7b8, #b0e6f2, #cac0fc, #e3c0f6, #f6bab0, #faeba8)
 }
