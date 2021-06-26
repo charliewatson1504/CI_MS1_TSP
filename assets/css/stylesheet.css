@@ -120,8 +120,9 @@ h2 {
     .nav-link:hover,
     .nav-item .active {
         color: var(--clr-neutral-100);
+        font-weight: 500;
+        text-shadow: 1px 1px 2px rgb(59, 59, 59);
         background: var(--clr-accent-400);
-        box-shadow: var(--clr-neutral-900);
         border-radius: 7%;
     }
     .navbar .d-none {
@@ -191,7 +192,7 @@ h2 {
     background-size: 300%;
     background-image: var(--gradient);
     animation: bg-animation 20s infinite;
-    box-shadow: 0px 0px 10px #000;
+    box-shadow: 2px 2px 4px rgb(59, 59, 59);
 }
 
 @keyframes bg-animation {
