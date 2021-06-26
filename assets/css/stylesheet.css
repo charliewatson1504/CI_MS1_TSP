@@ -191,7 +191,7 @@ h2 {
     background-size: 300%;
     background-image: var(--gradient);
     animation: bg-animation 20s infinite;
-    box-shadow: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px #000;
 }
 
 @keyframes bg-animation {
