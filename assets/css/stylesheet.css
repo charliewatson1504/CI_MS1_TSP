@@ -13,6 +13,7 @@
     9. Gallery
     10. Contact us
     11. Footer
+    12. 404 page
 **********************/
 
 /* 1. Global styles */
@@ -415,9 +416,22 @@ h2 {
     padding: 1rem 2rem 0 2rem;
 }
 
-.gallery-container iframe {
-    margin-right: auto;
+.iframe-container {
+    position: relative;
+    width: 90%;
+    padding-bottom: 56.25%;
+    height: 0;
     margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -460,7 +474,6 @@ h2 {
         flex-basis: 20%;
     }
 }
-
 /* 10. Contact Us Page */
 
 #contact-us {
