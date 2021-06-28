@@ -403,10 +403,7 @@ h2 {
 .box-item {
     background: var(--clr-neutral-100);
     padding: 0.25rem;
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0.25rem;
     height: auto;
     width: 95%;
 }
