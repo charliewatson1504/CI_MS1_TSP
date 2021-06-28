@@ -545,4 +545,15 @@ textarea {
         margin-top: 0.75rem;
     }
 }
-    
+
+/* 12. 404 page */
+
+.page404 {
+    background: var(--clr-accent-400);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.page404 * {
+    margin: 3rem 0;
+}
