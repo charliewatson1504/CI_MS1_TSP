@@ -87,7 +87,9 @@ The webiste also needs have a section where enquires can be made and bookings ca
 2. The website must be aesthetic and intuitive
 
 # Design Choices
+What I wanted to do with this site was create a minimal, modern and sleek design that was intuitive to use and showcased the salon's work in the best way possible.
 
+Inspiration for the design of the site was taken direct from the salon to keep consistency of the user when on the site and in the salon.
 ## Colors
 
 ## Fonts
