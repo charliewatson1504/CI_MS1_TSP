@@ -313,7 +313,7 @@ It doesn't relate to a specific user story but is an important feature as set ou
 4. [Gallery](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-gallery.png)
 5. [Contact Us](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-contact-us.png)
 6. [404 Page](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-404.png)
-# Testing of User Stories(Feature-Action-Expected result-Actual result)
+# Testing of User Stories
 ### 1. As a First Time Visitor I want to know what services are offered by the salon
 
 |Feature|Action|Expected Result|Actual Result|
