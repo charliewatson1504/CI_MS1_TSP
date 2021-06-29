@@ -353,6 +353,7 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the link in the footer to navigate to the salons facebook page|Click on the facebook icon found in the footer|Salon's facebook page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
+
 1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-1.jpg)
 2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-2.jpg)
 3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-3.jpg)
@@ -361,12 +362,14 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find team member write ups on meet the team page|Click on link to meet the team page in navigation bar|See details on the team members|Works as expected|
+
 [Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-6.jpg)
 ### 7. As a First Time Visitor I want to be able to find out where the salon is located
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and refer to the embedded map|Click on the Contact Us link in the navigation bar. Scroll down to the map|Map displays and shows correct location of salon|Works as expected|
+
 [Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-7.jpg)
 ### 8. As a Returning Visitor I want to be able to find out any new announcements the salon has made
 
@@ -381,6 +384,7 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the book now modal to submit request|Click on the book now button in the navigation bar of any page|Open modal and give successful submission when hit submit|Works as expected|
 |Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
 |Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
+
 1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-1.jpg)
 2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-2.jpg)
 3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-3.jpg)
@@ -391,6 +395,7 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the link in the footer to navigate to the salons facebook page|Click on the facebook icon found in the footer|Salon's facebook page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
+
 1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-1.jpg)
 2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-2.jpg)
 3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-3.jpg)
@@ -402,6 +407,7 @@ All elements that need to be responsive work as expected
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find announcements section on the homepage|Scroll down|Announcements section will display|Works as expected|
+
 [Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-12.jpg)
 ### 13. As a Site Owner I want to generate revenue by allowing clients to book through the website
 
@@ -410,6 +416,7 @@ All elements that need to be responsive work as expected
 |Use the book now modal to submit request|Click on the book now button in the navigation bar of any page|Open modal and give successful submission when hit submit|Works as expected|
 |Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
 |Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
+
 1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-1.jpg)
 2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-2.jpg)
 3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-3.jpg)
@@ -421,6 +428,7 @@ All elements that need to be responsive work as expected
 |Use the link in the footer to navigate to the salons facebook page|Click on the facebook icon found in the footer|Salon's facebook page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
+
 1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-1.jpg)
 2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-2.jpg)
 3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-3.jpg)
@@ -429,15 +437,15 @@ All elements that need to be responsive work as expected
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and use the contact form|Click on the Contact Us link in the navigation bar. The fill out the contact form and press submit once done|Form to be submitted successfully|Works as expected|
+
 [Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-15.jpg)
 ### 16. As a Site Owner I want to be able show visitors where the salon is based
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and refer to the embedded map|Click on the Contact Us link in the navigation bar. Scroll down to the map|Map displays and shows correct location of salon|Works as expected|
+
 [Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-16.jpg)
-
-
 # Bugs
 - Bug: Gallery pictures not being responsive when viewed on larger screens.
 - Fix: Resize all pictures using Adobe Photoshop.
