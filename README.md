@@ -24,7 +24,6 @@ This project is built for The Sky Parlour is a private hair salon in Consett, Co
 - [Design Choices](https://github.com/charliewatson1504/CI_MS1_TSP#design-choices)
     - [Colors](https://github.com/charliewatson1504/CI_MS1_TSP#colors)
     - [Fonts](https://github.com/charliewatson1504/CI_MS1_TSP#fonts)
-    - [Structure](https://github.com/charliewatson1504/CI_MS1_TSP#structure)
     - [Wireframes](https://github.com/charliewatson1504/CI_MS1_TSP#wireframes)
     - [Technologies Used](https://github.com/charliewatson1504/CI_MS1_TSP#technologies-used)
     - [Features](https://github.com/charliewatson1504/CI_MS1_TSP#features)
@@ -91,13 +90,16 @@ What I wanted to do with this site was create a minimal, modern and sleek design
 
 Inspiration for the design of the site was taken direct from the salon to keep consistency of the user when on the site and in the salon.
 ## Colors
-
+The colour scheme that I have used is a contrast of white and dark grey with an accent colour of light purple being used throughout the site. I decided that to overload the site with colour would distract from the many images of the salon's work which bring the majority of the colour to the site. 
 ## Fonts
-
-## Structure
+I have used the spectral font from google fonts in 2 different font weights for heading and body text. Sans serif was employed as the back up font should Spectral not be loaded in the browser correctly.
 
 ## Wireframes
-
+The wireframes for the site were created in Adobe XD and are linked below for Desktop, Tablet and Mobile devices.
+### [Desktop](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/desktop)
+### [Tablet](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/tablet)
+### [Mobile](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/mobile)
+### [Modal](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/modal)
 ## Technologies Used
 
 ## Features
