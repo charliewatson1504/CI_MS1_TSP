@@ -319,84 +319,123 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---| 
 |Find services listed on services page|Click on link to services page in navigation bar. Then Click on the relevant services category card find out more button|See details on the services provided in that category|Works as expected|
-[Screenshot to show user story]()
+
+[Screenshot to show user story test]()
 ### 2. As a First Time Visitor I want to be able to contact the salon with an enquiry
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and use the contact form|Click on the Contact Us link in the navigation bar. The fill out the contact form and press submit once done|Form to be submitted successfully|Works as expected|
-[Screenshot to show user story]()
+
+[Screenshot to show user story test]()
 ### 3. As a First Time Visitor I want to be able to make a booking for a service provided by the salon
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-|Use the book now modal to submit enquiry|Click on the book now button in the navigation bar|Open modal and give successful submission when hit submit|Works as expected|
-[Screenshot to show user story]()
+|Use the book now modal to submit request|Click on the book now button in the navigation bar of any page|Open modal and give successful submission when hit submit|Works as expected|
+|Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
+|Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
+
+1. [Screenshot to show user story test 1]()
+2. [Screenshot to show user story test 2]()
+3. [Screenshot to show user story test 3]()
 ### 4. As a First Time Visitor I want to be able to see pictures of completed services the salon provides
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Use the link in the navigation bar to get to the gallery page|Click on the gallery link in navigation bar|Gallery page opens up and can view pictures and video|Works as expected|
+
+[Screenshot to show user story test]()
 ### 5. As a First Time Visitor I want to be able to visit the salon's social media pages
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Use the link in the footer to navigate to the salons facebook page|Click on the facebook icon found in the footer|Salon's facebook page opens up in a new browser tab|Works as expected|
+|Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
+|Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
+1. [Screenshot to show user story test 1]()
+2. [Screenshot to show user story test 2]()
+3. [Screenshot to show user story test 3]()
 ### 6. As a First Time Visitor I want to be able to find out more about the team that works at the salon
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Find team member write ups on meet the team page|Click on link to meet the team page in navigation bar|See details on the team members|Works as expected|
+[Screenshot to show user story test]()
 ### 7. As a First Time Visitor I want to be able to find out where the salon is located
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Find the contact page and refer to the embedded map|Click on the Contact Us link in the navigation bar. Scroll down to the map|Map displays and shows correct location of salon|Works as expected|
+[Screenshot to show user story test]()
 ### 8. As a Returning Visitor I want to be able to find out any new announcements the salon has made
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Find announcements section on the homepage|Scroll down|Announcements section will display|Works as expected|
+[Screenshot to show user story test]()
 ### 9. As a Returning Visitor I want to be able to be able to book a service with the salon
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Use the book now modal to submit request|Click on the book now button in the navigation bar of any page|Open modal and give successful submission when hit submit|Works as expected|
+|Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
+|Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
+1. [Screenshot to show user story test 1]()
+2. [Screenshot to show user story test 2]()
+3. [Screenshot to show user story test 3]()
 ### 10. As a Returning Visitor I want to be able to visit the salon's social media pages
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Use the link in the footer to navigate to the salons facebook page|Click on the facebook icon found in the footer|Salon's facebook page opens up in a new browser tab|Works as expected|
+|Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
+|Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
+1. [Screenshot to show user story test 1]()
+2. [Screenshot to show user story test 2]()
+3. [Screenshot to show user story test 3]()
 ### 11. As a Site Owner I want to create an intuitive and responsive website
 
-|Feature|Action|Expected Result|Actual Result|
-|---|---|---|---|
-[Screenshot to show user story]()
+All elements that need to be responsive work as expected
 ### 12. As a Site Owner I want to be able to inform clients of changes to the salon
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Find announcements section on the homepage|Scroll down|Announcements section will display|Works as expected|
+[Screenshot to show user story test]()
 ### 13. As a Site Owner I want to generate revenue by allowing clients to book through the website
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Use the book now modal to submit request|Click on the book now button in the navigation bar of any page|Open modal and give successful submission when hit submit|Works as expected|
+|Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
+|Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
+1. [Screenshot to show user story test 1]()
+2. [Screenshot to show user story test 2]()
+3. [Screenshot to show user story test 3]()
+
 ### 14. As a Site Owner I want more exposure of the salon's social media pages
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Use the link in the footer to navigate to the salons facebook page|Click on the facebook icon found in the footer|Salon's facebook page opens up in a new browser tab|Works as expected|
+|Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
+|Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
+1. [Screenshot to show user story test 1]()
+2. [Screenshot to show user story test 2]()
+3. [Screenshot to show user story test 3]()
 ### 15. As a Site Owner I want to be able to receive communication from site visitors
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Find the contact page and use the contact form|Click on the Contact Us link in the navigation bar. The fill out the contact form and press submit once done|Form to be submitted successfully|Works as expected|
+[Screenshot to show user story test]()
 ### 16. As a Site Owner I want to be able show visitors where the salon is based
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
-[Screenshot to show user story]()
+|Find the contact page and refer to the embedded map|Click on the Contact Us link in the navigation bar. Scroll down to the map|Map displays and shows correct location of salon|Works as expected|
+[Screenshot to show user story test]()
 
 
 # Bugs
