@@ -100,7 +100,33 @@ The wireframes for the site were created in Adobe XD and are linked below for De
 ### [Tablet](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/tablet)
 ### [Mobile](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/mobile)
 ### [Modal](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/modal)
-## Technologies Used
+# Technologies Used
+## Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+## Frameworks, libraries and other tools
+- [Git](https://git-scm.com/)
+Used for version control of the site and push code from VScode to Github
+- [Github](https://github.com/)
+Used as the remote repository to store the code. Github pages is also where the live site is hosted.
+- [Visual Studio Code](https://code.visualstudio.com/)
+Used as the IDE for writing the code and file management
+- [Adobe XD](https://www.adobe.com/uk/products/xd.html)
+Used to create wireframes for the site
+- [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
+Used to edit and crop all image sizes on the site as original filesize were too large and affected performance
+- [Google Fonts](https://fonts.google.com/)
+Used for Spectral font throughout the site
+- [Font Awesome](https://fontawesome.com/)
+Used for various icons throughout the site
+- [Bootstrap](https://getbootstrap.com/)
+Used for creating a responsive navigation bar used in every header of each page. Also used for creting a modal for a booking form used on each page. Modals were used for services page in which an accordion was created using bootstrap for each service category.
+- [Google Maps](https://www.google.com/maps)
+Used to embed a map to the salon located on the contact us page
+- [Am I responsive](http://ami.responsivedesign.is/)
+Used to create a mulit-device mock-up that is shown at the top of the README file
+- [Convertio](https://convertio.co/png-webp/)
+Used to convert any PNG image to WEBP to improve the sites performace
 
 ## Features
 
