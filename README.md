@@ -120,7 +120,7 @@ Used for Spectral font throughout the site
 - [Font Awesome](https://fontawesome.com/)
 Used for various icons throughout the site
 - [Bootstrap](https://getbootstrap.com/)
-Used for creating a responsive navigation bar used in every header of each page. Also used for creting a modal for a booking form used on each page. Modals were used for services page in which an accordion was created using bootstrap for each service category.
+Used for creating a responsive navigation bar used in every header of each page. Also used for creting a modal for a booking form used on each page. Modals were used for services page in which an accordion was created using bootstrap for each service category. Bootstrap also used for creating a carousel for the review section
 - [Google Maps](https://www.google.com/maps)
 Used to embed a map to the salon located on the contact us page
 - [Am I responsive](http://ami.responsivedesign.is/)
@@ -128,7 +128,20 @@ Used to create a mulit-device mock-up that is shown at the top of the README fil
 - [Convertio](https://convertio.co/png-webp/)
 Used to convert any PNG image to WEBP to improve the sites performace
 
-## Features
+# Features
+This site has 5 pages with **** features
+## Feature 1 - Home Page
+The homepage has 3 main sections to it:
+1. Hero image with book now call to action button.
+2. "What's New" section where recent salon annoucements can be found.
+3. Reviews section with reviews rotating on a carousel component.
+
+This page is responsive and shows in a different layout on mobile compared to desktop.
+### Section 1 - Hero Image
+Image from work carried out in salon and chosen for its look when resizing on different screen sizes. The call to action is one of the main site owner goals being to increase salon bookings. The button has a gradient animation to make it stand out to the user.
+
+![Feature 1 Section 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/features/feature-1-sec-1.png)
+
 
 # Validation
 
