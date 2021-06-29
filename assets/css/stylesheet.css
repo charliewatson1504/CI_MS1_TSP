@@ -230,6 +230,12 @@ h2 {
 }
 
 @media (min-width: 991px) {
+    .home-container-heading {
+        width: 100%;
+    }
+    .home-container h1 {
+        text-align: center;
+    }
     .home-item {
         width: 20rem;
         flex-grow: 1;
