@@ -439,9 +439,43 @@ All elements that need to be responsive work as expected
 
 
 # Bugs
-
+- Bug: Gallery pictures not being responsive when viewed on larger screens.
+- Fix: Resize all pictures using Adobe Photoshop.
+- Bug: Book now modal not opening up when viewed on mobile screen.
+- Fix: Modal contained in nav element preventing it to be seen when navbar collapses. Moved modal code out of nav element and now works.
+- Bug: 404 page link to take user back to homepage not working.
+- Fix: Update link to github pages hosted link rather than just index.html
+- Bug: Book now modal not submitting form information when submit button is pressed.
+- Fix: Submit form button not within form element. Moved code within in form element and now works.
+- Bug: Frameborder attribute within iframe element for embedded video highlighted as an obsolete attribute in validation.
+- Fix: Removed attribute and no effect on performance of site.
+- Bug: Book now modal not submitting.
+- Fix: Update method to post to Code Institute form dump.
+- Bug: Favicon not showing on published pages.
+- Fix: Update favicon link to published github pages link.
 # Deployment
+The website has been deloyed on Github pages. To do this follow the below steps:
+1. Log into your GitHub account then go to the repository your want to deploy.
+2. Click on the settings tab.
+3. Click on the pages button found on the left hand nav menu.
+4. Click on source.
+5. Click the dropdown that says none and then select Master Branch.
+6. Wait for a few seconds and the page should automatically refresh
+7. In GitHub pages you can see your link to the published site.
 
+To make a clone of this repository you will need to do the below:
+1. Login to your GitHub account.
+2. Find the repo by going to https://github.com/charliewatson1504/CI_MS1_TSP
+3. Click the Code button and then use the copy button next to the link to copy the link.
+4. In your IDE of choice use the below clone command in a new terminal:
+
+```git clone https://github.com/charliewatson1504/CI_MS1_TSP.git```
+
+5. You will now have a copy of the repository in you local version
 # Credit
-
+- W3C Schools for lessons on [Flexboxes](https://www.w3schools.com/css/css3_flexbox.asp)
+- Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/), [carousel](https://getbootstrap.com/docs/5.0/components/carousel/) and [accordions](https://getbootstrap.com/docs/5.0/components/accordion/)
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for many CSS tips
 # Acknowledgements
+- To Mo Shami, my mentor, for getting me through this with great advice and support
+- To the Code Institute slack community for finding out great advice, guidance and resources.
