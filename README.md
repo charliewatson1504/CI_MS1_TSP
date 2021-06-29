@@ -314,6 +314,90 @@ It doesn't relate to a specific user story but is an important feature as set ou
 5. [Contact Us](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-contact-us.png)
 6. [404 Page](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-404.png)
 # Testing of User Stories(Feature-Action-Expected result-Actual result)
+### 1. As a First Time Visitor I want to know what services are offered by the salon
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---| 
+|Find services listed on services page|Click on link to services page in navigation bar. Then Click on the relevant services category card find out more button|See details on the services provided in that category|Works as expected|
+[Screenshot to show user story]()
+### 2. As a First Time Visitor I want to be able to contact the salon with an enquiry
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+|Find the contact page and use the contact form|Click on the Contact Us link in the navigation bar. The fill out the contact form and press submit once done|Form to be submitted successfully|Works as expected|
+[Screenshot to show user story]()
+### 3. As a First Time Visitor I want to be able to make a booking for a service provided by the salon
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+|Use the book now modal to submit enquiry|Click on the book now button in the navigation bar|Open modal and give successful submission when hit submit|Works as expected|
+[Screenshot to show user story]()
+### 4. As a First Time Visitor I want to be able to see pictures of completed services the salon provides
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 5. As a First Time Visitor I want to be able to visit the salon's social media pages
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 6. As a First Time Visitor I want to be able to find out more about the team that works at the salon
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 7. As a First Time Visitor I want to be able to find out where the salon is located
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 8. As a Returning Visitor I want to be able to find out any new announcements the salon has made
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 9. As a Returning Visitor I want to be able to be able to book a service with the salon
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 10. As a Returning Visitor I want to be able to visit the salon's social media pages
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 11. As a Site Owner I want to create an intuitive and responsive website
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 12. As a Site Owner I want to be able to inform clients of changes to the salon
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 13. As a Site Owner I want to generate revenue by allowing clients to book through the website
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 14. As a Site Owner I want more exposure of the salon's social media pages
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 15. As a Site Owner I want to be able to receive communication from site visitors
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+### 16. As a Site Owner I want to be able show visitors where the salon is based
+
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+[Screenshot to show user story]()
+
 
 # Bugs
 
