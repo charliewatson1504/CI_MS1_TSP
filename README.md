@@ -96,10 +96,31 @@ I have used the spectral font from google fonts in 2 different font weights for 
 
 ## Wireframes
 The wireframes for the site were created in Adobe XD and are linked below for Desktop, Tablet and Mobile devices.
-### [Desktop](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/desktop)
-### [Tablet](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/tablet)
-### [Mobile](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/mobile)
-### [Modal](https://github.com/charliewatson1504/CI_MS1_TSP/tree/master/docs/wireframes/modal)
+### Homepage
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/desktop/index-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/tablet/index-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/mobile/index-mobile.png"></details>
+
+### Services
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/desktop/services-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/tablet/services-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/mobile/services-mobile.png"></details>
+### Meet The Team
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/desktop/meet-the-team-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/tablet/meet-the-team-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/mobile/meet-the-team-mobile.png"></details>
+### Gallery
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/desktop/gallery-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/tablet/gallery-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/mobile/gallery-mobile.png"></details>
+### Contact Us
+1. <details><summary>Desktop</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/desktop/contact-us-desktop.png"></details>
+2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/tablet/contact-us-tablet.png"></details>
+3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/mobile/contact-us-mobile.png"></details>
+### Modal
+- <details><summary>Homepage</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/modal/modal.png"></details>
+### 404 Page
+- <details><summary>Homepage</summary><img src=""></details>
 # Technologies Used
 ## Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
