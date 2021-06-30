@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Private vegan hair salon in Consett, County Durham, UK">
   <meta name="keywords" content="hair, colour, haircut, rainbow">
-
   <!-- Font Awesome Script -->
   <script src="https://kit.fontawesome.com/de2e36d79b.js" crossorigin="anonymous"></script>
   <!-- Bootstrap Link-->
@@ -14,15 +13,15 @@
   <!-- CSS Stylesheet link -->
   <link rel="stylesheet" href="assets/css/stylesheet.css">
   <link rel="shortcut icon" href="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/favicon.ico" type="image/x-icon">
-
   <title>The Sky Parlour | Contact Us</title>
-
 </head>
 <body>
+  <!-- Header containing a navbar with credit to Bootstrap for this component. The navbar give the user access to all pages and is responsive when viewed on all screen sizes. -->
   <header>
     <nav class="navbar navbar-expand-lg" id="myNavbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
+          <!-- Logo created by salon owner using Canva -->
           <img src="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/logo.jpg" alt="The Sky Parlour logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,13 +47,12 @@
               <a class="nav-link active" href="contact-us.html">Contact Us</a>
             </li>
           </ul>
-
-          <!-- Button trigger modal -->
+          <!-- Button trigger for book now modal -->
           <button type="button" class="btn d-none" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
         </div>
       </div>
     </nav>
-    <!-- Modal -->
+    <!-- Book now modal credit Bootstrap for this component. The modal is to allow the user to create a booking enquiry without having a large form taking up space. -->
     <div class="modal fade" id="booknowModal" tabindex="-1" aria-labelledby="booknowModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -62,6 +60,7 @@
             <h5 class="modal-title" id="booknowModalLabel">Make a Booking Enquiry</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <!-- Book Now form currently posting to the Code institute form dump. This will be an update feature when site used live -->
           <form method="POST" action="https://formdump.codeinstitute.net/">
             <div class="modal-body">
               <div class="bookingform">
@@ -90,9 +89,11 @@
       </div>
     </div>
   </header>
+  <!-- Contact form to provide a easy way for the user to make a general enquiry to the salon -->
   <section id="contact-us">
     <div class="contact-form">
       <h2>Contact Us</h2>
+      <!-- Contact us form currently posting to the Code institute form dump. This will be an update feature when site used live -->
       <form method="POST" action="https://formdump.codeinstitute.net/">
         <label for="contact-name">Name: </label>
         <input type="text" id="contact-name" name="name" placeholder="Enter name here...." required>
@@ -109,11 +110,13 @@
         <input class="btn-alt shadow" type="submit" value="Send">
       </form>
     </div>
+    <!-- Map from google maps to show the user where the salon is. -->
     <div class="home-container">
       <div class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2296.7597718186257!2d-1.83712748397717!3d54.85446891837993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x517be2cd07ba4f76!2sStacey&#39;s%20Barbers!5e0!3m2!1sen!2suk!4v1623488174959!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
         </iframe>
       </div>
+      <!-- Additional contact information provide to give the user the choice on how they feel most comfortable with contact the salon. This should increase the interaction between the user and the salon. -->
       <div class="home-item">
         <h5>Address:</h5>
         <p>
@@ -131,11 +134,14 @@
       </div>
     </div>
   </section>
+  <!-- Footer section containing a final call to action button for getting booking enquirys for the salon at the end of each page. -->
   <footer>
     <div class="footer-container">
+      <!-- Book now button to open modal -->
       <div class="footer-item">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
       </div>
+      <!-- Links to salon's social media pages using icons from font awesome. Links open up in a new tab and provide a level of privacy for the user where informaiton cannot be passed onto the opening page. This follows best practice standards. -->
       <div class="footer-item">
         <a href="https://www.facebook.com/theskyparloursalon" target="_blank" rel="noopener">
           <i class="fab fa-facebook-square">

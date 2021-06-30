@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Private vegan hair salon in Consett, County Durham, UK">
   <meta name="keywords" content="hair, colour, haircut, rainbow">
-
   <!-- Font Awesome Script -->
   <script src="https://kit.fontawesome.com/de2e36d79b.js" crossorigin="anonymous"></script>
   <!-- Bootstrap Link-->
@@ -14,15 +13,15 @@
   <!-- CSS Stylesheet link -->
   <link rel="stylesheet" href="assets/css/stylesheet.css">
   <link rel="shortcut icon" href="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/favicon.ico" type="image/x-icon">
-
   <title>The Sky Parlour | Services</title>
-
 </head>
 <body>
+  <!-- Header containing a navbar with credit to Bootstrap for this component. The navbar give the user access to all pages and is responsive when viewed on all screen sizes. -->
   <header>
     <nav class="navbar navbar-expand-lg" id="myNavbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
+          <!-- Logo created by salon owner using Canva -->
           <img src="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/logo.jpg" alt="The Sky Parlour logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,13 +47,12 @@
               <a class="nav-link" href="contact-us.html">Contact Us</a>
             </li>
           </ul>
-
           <!-- Button trigger modal -->
           <button type="button" class="btn d-none" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
         </div>
       </div>
     </nav>
-    <!-- Modal -->
+    <!-- Book now modal credit Bootstrap for this component. The modal is to allow the user to create a booking enquiry without having a large form taking up space. -->
     <div class="modal fade" id="booknowModal" tabindex="-1" aria-labelledby="booknowModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -62,6 +60,7 @@
             <h5 class="modal-title" id="booknowModalLabel">Make a Booking Enquiry</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <!-- Book Now form currently posting to the Code institute form dump. This will be an update feature when site used live -->
           <form method="POST" action="https://formdump.codeinstitute.net/">
             <div class="modal-body">
               <div class="bookingform">
@@ -90,15 +89,16 @@
       </div>
     </div>
   </header>
+  <!-- Services section is made up with 5 cards that are a different service category of the salon. All images for owned by the salon and have been given consent to use them -->
   <section id="services">
     <h1>Services</h1>
     <div class="card shadow" id="consultations">
       <div class="card-content">
         <h3 class="card-title">Consultations</h3>
         <p class="card-body">Come in and discuss your requirements!</p>
-        <!-- Button trigger modal -->
+        <!-- Button trigger for consultation modal -->
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#consultationsModal">Find out more!</button>
-        <!-- Modal -->
+        <!-- Consultation modal credit Bootstrap for this component -->
         <div class="modal fade" id="consultationsModal" tabindex="-1" aria-labelledby="consultationsModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -107,6 +107,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
+                <!-- Accordion component built with bootstrap. This gives further interaction for the user and presents a large amount of information in a structured and not overwhelming way. -->
                 <div class="container">
                   <div id="Consultations" class="tabcontent">
                   <div class="accordion" id="accordionConsultations">
@@ -190,9 +191,9 @@
       <div class="card-content">
         <h3 class="card-title">Packages</h3>
         <p class="card-body">This service is for clients wishing to have a massive colour change!</p>
-        <!-- Button trigger modal -->
+        <!-- Button trigger for packages modal -->
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#packagesModal">Find out more!</button>
-        <!-- Modal -->
+        <!-- Packages modal credit Bootstrap for this component -->
         <div class="modal fade" id="packagesModal" tabindex="-1" aria-labelledby="packagesModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -201,6 +202,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
+                <!-- Accordion component built with bootstrap. This gives further interaction for the user and presents a large amount of information in a structured and not overwhelming way. -->
                 <div class="container">
                   <div id="Packages" class="tabcontent">
                     <div class="accordion" id="accordionPackages">
@@ -267,9 +269,9 @@
       <div class="card-content">
         <h3 class="card-title">Colouring Services</h3>
         <p class="card-body">From full head to balayage!</p>
-        <!-- Button trigger modal -->
+        <!-- Button trigger for colouring services modal -->
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#colouringModal">Find out more!</button>
-        <!-- Modal -->
+        <!-- Colouring services modal credit Bootstrap for this component -->
         <div class="modal fade" id="colouringModal" tabindex="-1" aria-labelledby="colouringModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -278,6 +280,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
+                <!-- Accordion component built with bootstrap. This gives further interaction for the user and presents a large amount of information in a structured and not overwhelming way. -->
                 <div class="container">
                   <div id="Colouring-Ser" class="tabcontent">
                     <div class="accordion" id="accordionColour-Serv">
@@ -470,9 +473,9 @@
       <div class="card-content">
         <h3 class="card-title">Bond Building Hair Treatments</h3>
         <p class="card-body">Bond building hair treatments to repair your hair!</p>
-        <!-- Button trigger modal -->
+        <!-- Button trigger for hear treatments modal -->
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bond-buildingModal">Find out more!</button>
-        <!-- Modal -->
+        <!-- Hair treatments modal credit Bootstrap for this component -->
         <div class="modal fade" id="bond-buildingModal" tabindex="-1" aria-labelledby="bond-buildingModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -481,6 +484,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
+                <!-- Accordion component built with bootstrap. This gives further interaction for the user and presents a large amount of information in a structured and not overwhelming way. -->
                 <div class="container">
                   <div id="Bond-Build-Hair-Treat" class="tabcontent">
                     <div class="accordion" id="accordionBond-Build-Hair-Treat">
@@ -569,9 +573,9 @@
       <div class="card-content">
         <h3 class="card-title">Cut and Blow-Dry Services</h3>
         <p class="card-body">Making the most of your natural colour!</p>
-        <!-- Button trigger modal -->
+        <!-- Button trigger cut and blow dry modal -->
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#cut-blow-dryModal">Find out more!</button>
-        <!-- Modal -->
+        <!-- Cut and blow dry modal credit Bootstrap for this component -->
         <div class="modal fade" id="cut-blow-dryModal" tabindex="-1" aria-labelledby="cut-blow-dryModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -580,6 +584,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
+                <!-- Accordion component built with bootstrap. This gives further interaction for the user and presents a large amount of information in a structured and not overwhelming way. -->
                 <div class="container">
                   <div id="CBD-Services" class="tabcontent">
                     <div class="accordion" id="accordionCBD-Services">
@@ -713,11 +718,14 @@
       </div>
     </div>
   </section>
+  <!-- Footer section containing a final call to action button for getting booking enquirys for the salon at the end of each page. -->
   <footer>
     <div class="footer-container">
+      <!-- Book now button to open modal -->
       <div class="footer-item">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
       </div>
+      <!-- Links to salon's social media pages using icons from font awesome. Links open up in a new tab and provide a level of privacy for the user where informaiton cannot be passed onto the opening page. This follows best practice standards. -->
       <div class="footer-item">
         <a href="https://www.facebook.com/theskyparloursalon" target="_blank" rel="noopener">
           <i class="fab fa-facebook-square">

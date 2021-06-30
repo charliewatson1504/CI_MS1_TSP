@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Private vegan hair salon in Consett, County Durham, UK">
   <meta name="keywords" content="hair, colour, haircut, rainbow">
-
   <!-- Font Awesome Script -->
   <script src="https://kit.fontawesome.com/de2e36d79b.js" crossorigin="anonymous"></script>
   <!-- Bootstrap Link-->
@@ -14,15 +13,15 @@
   <!-- CSS Stylesheet link -->
   <link rel="stylesheet" href="assets/css/stylesheet.css">
   <link rel="shortcut icon" href="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/favicon.ico" type="image/x-icon">
-
   <title>The Sky Parlour | Meet The Team</title>
-
 </head>
 <body>
+  <!-- Header containing a navbar with credit to Bootstrap for this component. The navbar give the user access to all pages and is responsive when viewed on all screen sizes. -->
   <header>
     <nav class="navbar navbar-expand-lg" id="myNavbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
+          <!-- Logo created by salon owner using Canva -->
           <img src="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/logo.jpg" alt="The Sky Parlour logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,13 +47,12 @@
               <a class="nav-link" href="contact-us.html">Contact Us</a>
             </li>
           </ul>
-
-          <!-- Button trigger modal -->
+          <!-- Button trigger for book now modal -->
           <button type="button" class="btn d-none" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
         </div>
       </div>
     </nav>
-    <!-- Modal -->
+    <!-- Book now modal credit Bootstrap for this component. The modal is to allow the user to create a booking enquiry without having a large form taking up space. -->
     <div class="modal fade" id="booknowModal" tabindex="-1" aria-labelledby="booknowModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -62,6 +60,7 @@
             <h5 class="modal-title" id="booknowModalLabel">Make a Booking Enquiry</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <!-- Book Now form currently posting to the Code institute form dump. This will be an update feature when site used live -->
           <form method="POST" action="https://formdump.codeinstitute.net/">
             <div class="modal-body">
               <div class="bookingform">
@@ -90,17 +89,20 @@
       </div>
     </div>
   </header>
+  <!-- Meet the team page gives the user an introduction to the team at the salon if they have not been there before. Allows the user the get to know the team and create a conection with the hope that it increases the likeihood of them making a booking. -->
   <section id="meet-the-team">
       <h1>Meet The Team</h1>
     <div class="home-container">
       <div class="home-item one">
         <h2>Maxine Watson</h2>
+        <!-- The write ups for both team members are quite lengthy but even viewed at 320px the text is clear and does not spill out. See testing section for a screenshot of this or how it is styled in comments on the stylesheet. -->
         <p>
           Meet Maxine, salon owner and hairstylist with almost 18 years in the industry. Maxine loves all things rainbow and is highly qualified in colouring services and has a passion for short cuts and long, beautiful waves! 
           “People always ask me what my favourite thing about my job is and to be honest, it’s the before and after! No matter if I’ve done a blow-dry or a massive colour transformation, what gets me every-time is the before and after! Maximising my amazing client’s beautiful hair is what I live for!”
         </p>
       </div>
       <div class="circle-bg two">
+        <!-- Image made in Adobe Photoshop by using the magnet selection tool to cut Maxine out of another picture. Then this is put on a background coloured with the sites accent colour. This gives a more impactful image of Maxine for the user. -->
         <img src="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/maxine.webp" alt="Profile picture of Maxine Watson, The Sky Parlour Salon owner.">
       </div>
     </div>
@@ -113,15 +115,19 @@
         </p>
       </div>
       <div class="circle-bg one">
+        <!-- Image of Evie taken whilst working in the salon to improve credibility. Again on the backdrop of the sites accent colour -->
         <img src="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/evie.jpeg" alt="Profile picture of Evie Harkin, The Sky Parlour Salon team member.">
       </div>
     </div>
   </section>
+  <!-- Footer section containing a final call to action button for getting booking enquirys for the salon at the end of each page. -->
   <footer>
     <div class="footer-container">
+      <!-- Book now button to open modal -->
       <div class="footer-item">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
       </div>
+      <!-- Links to salon's social media pages using icons from font awesome. Links open up in a new tab and provide a level of privacy for the user where informaiton cannot be passed onto the opening page. This follows best practice standards. -->
       <div class="footer-item">
         <a href="https://www.facebook.com/theskyparloursalon" target="_blank" rel="noopener">
           <i class="fab fa-facebook-square">
