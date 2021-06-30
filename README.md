@@ -300,9 +300,10 @@ It doesn't relate to a specific user story but is an important feature as set ou
 6. <details><summary>404 Page</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-404.png"></details>
 
 ## CSS Validation
-[W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the site. It returned with 0 errors. See below link to screenshot:
+[W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the site. The stylesheet.css file returned with 0 errors. When running on the whole page it returned with 17 errors all of which can be attributed to Bootstrap v5.0. See below link to screenshot:
+1. <details><summary>Whole Page</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/css-validation/whole-page-css-validation.png"></details>
 
-- <details><summary>CSS Stylesheet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/css-validation/css-validation.png"></details>
+2. <details><summary>CSS Stylesheet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/css-validation/css-validation.png"></details>
 
 ## Accessibility Validation
 [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) has been used to validate the site to the recognised standards when it comes to accessibility. All pages have passed with 0 errors. Click on the below to see each screenshot:
