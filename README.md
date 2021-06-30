@@ -91,6 +91,8 @@ What I wanted to do with this site was create a minimal, modern and sleek design
 Inspiration for the design of the site was taken direct from the salon to keep consistency of the user when on the site and in the salon.
 ## Colors
 The colour scheme that I have used is a contrast of white and dark grey with an accent colour of light purple being used throughout the site. I decided that to overload the site with colour would distract from the many images of the salon's work which bring the majority of the colour to the site. 
+
+![Colour Pallette](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/features/colour-pallet.png)
 ## Fonts
 I have used the spectral font from google fonts in 2 different font weights for heading and body text. Sans serif was employed as the back up font should Spectral not be loaded in the browser correctly.
 
@@ -524,6 +526,7 @@ To make a clone of this repository you will need to do the below:
 # Credit
 - W3C Schools for lessons on [Flexboxes](https://www.w3schools.com/css/css3_flexbox.asp)
 - Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/), [carousel](https://getbootstrap.com/docs/5.0/components/carousel/) and [accordions](https://getbootstrap.com/docs/5.0/components/accordion/)
+- Colormind for creating the [colour pallette](http://colormind.io/)
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for many CSS tips
 # Acknowledgements
 - To Mo Shami, my mentor, for getting me through this with great advice and support
