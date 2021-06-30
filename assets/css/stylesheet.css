@@ -421,7 +421,7 @@ h2 {
 
 .iframe-container {
     position: relative;
-    width: 90%;
+    max-width: 500px;
     padding-bottom: 56.25%;
     height: 0;
     margin-left: auto;
