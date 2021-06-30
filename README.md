@@ -118,9 +118,9 @@ The wireframes for the site were created in Adobe XD and are linked below for De
 2. <details><summary>Tablet</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/tablet/contact-us-tablet.png"></details>
 3. <details><summary>Mobile</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/mobile/contact-us-mobile.png"></details>
 ### Modal
-- <details><summary>Homepage</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/modal/modal.png"></details>
+- <details><summary>Modal</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/modal/modal.png"></details>
 ### 404 Page
-- <details><summary>Homepage</summary><img src=""></details>
+- <details><summary>404 Page</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/wireframes/404-page/404-page.png"></details>
 # Technologies Used
 ## Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
