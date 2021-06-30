@@ -444,7 +444,11 @@ It doesn't relate to a specific user story but is an important feature as set ou
 3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-3.jpg)
 ### 11. As a Site Owner I want to create an intuitive and responsive website
 
-All elements that need to be responsive work as expected
+|Feature|Action|Expected Result|Actual Result|
+|---|---|---|---|
+|When pages viewed on smaller screens all content will reduce in size without content overflowing and not able to be seen|View homepage, gallery and meet the team pages on a iphone 5 screen with width of 320px|All content will shrink down in size without spilling out and not able to be seen|Works as expected|
+
+1. [Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-11.jpg)
 ### 12. As a Site Owner I want to be able to inform clients of changes to the salon
 
 |Feature|Action|Expected Result|Actual Result|
