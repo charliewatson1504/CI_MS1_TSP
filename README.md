@@ -554,6 +554,7 @@ To make a clone of this repository you will need to do the below:
 - Bootstrap for the following components: [navbar](https://getbootstrap.com/docs/5.0/components/navbar/), [modals](https://getbootstrap.com/docs/5.0/components/modal/), [carousel](https://getbootstrap.com/docs/5.0/components/carousel/) and [accordions](https://getbootstrap.com/docs/5.0/components/accordion/)
 - Colormind for creating the [colour pallette](http://colormind.io/)
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for many CSS tips
+- [Canva](https://www.canva.com) for creation of the logo
 # Acknowledgements
 - To Mo Shami, my mentor, for getting me through this with great advice and support
 - To the Code Institute slack community for finding out great advice, guidance and resources.
