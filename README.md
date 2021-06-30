@@ -363,14 +363,16 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |---|---|---|---| 
 |Find services listed on services page|Click on link to services page in navigation bar. Then Click on the relevant services category card find out more button|See details on the services provided in that category|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-1.jpg)
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-1.jpg"></details>
+
 ### 2. As a First Time Visitor I want to be able to contact the salon with an enquiry
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and use the contact form|Click on the Contact Us link in the navigation bar. The fill out the contact form and press submit once done|Form to be submitted successfully|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-2.jpg)
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-2.jpg"></details>
+
 ### 3. As a First Time Visitor I want to be able to make a booking for a service provided by the salon
 
 |Feature|Action|Expected Result|Actual Result|
@@ -379,16 +381,18 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
 |Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
 
-1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-3-1.jpg)
-2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-3-2.jpg)
-3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-3-3.jpg)
+1. <details><summary>Screenshot to show user story test 1</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-3-1.jpg"></details>
+2. <details><summary>Screenshot to show user story test 2</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-3-2.jpg"></details>
+3. <details><summary>Screenshot to show user story test 3</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-3-3.jpg"></details>
+
 ### 4. As a First Time Visitor I want to be able to see pictures of completed services the salon provides
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Use the link in the navigation bar to get to the gallery page|Click on the gallery link in navigation bar|Gallery page opens up and can view pictures and video|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-4.jpg)
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-4.jpg"></details>
+
 ### 5. As a First Time Visitor I want to be able to visit the salon's social media pages
 
 |Feature|Action|Expected Result|Actual Result|
@@ -397,29 +401,40 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
 
-1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-1.jpg)
-2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-2.jpg)
-3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-3.jpg)
+
+
+
+1. <details><summary>Screenshot to show user story test 1</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-1.jpg"></details>
+2. <details><summary>Screenshot to show user story test 2</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-2.jpg"></details>
+3. <details><summary>Screenshot to show user story test 3</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-5-3.jpg"></details>
+
 ### 6. As a First Time Visitor I want to be able to find out more about the team that works at the salon
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find team member write ups on meet the team page|Click on link to meet the team page in navigation bar|See details on the team members|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-6.jpg)
+
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-6.jpg"></details>
+
 ### 7. As a First Time Visitor I want to be able to find out where the salon is located
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and refer to the embedded map|Click on the Contact Us link in the navigation bar. Scroll down to the map|Map displays and shows correct location of salon|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-7.jpg)
+
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-7.jpg"></details>
+
 ### 8. As a Returning Visitor I want to be able to find out any new announcements the salon has made
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find announcements section on the homepage|Scroll down|Announcements section will display|Works as expected|
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-8.jpg)
+
+
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-8.jpg"></details>
+
 ### 9. As a Returning Visitor I want to be able to be able to book a service with the salon
 
 |Feature|Action|Expected Result|Actual Result|
@@ -428,9 +443,10 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
 |Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
 
-1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-1.jpg)
-2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-2.jpg)
-3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-3.jpg)
+1. <details><summary>Screenshot to show user story test 1</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-1.jpg"></details>
+2. <details><summary>Screenshot to show user story test 2</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-2.jpg"></details>
+3. <details><summary>Screenshot to show user story test 3</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-9-3.jpg"></details>
+
 ### 10. As a Returning Visitor I want to be able to visit the salon's social media pages
 
 |Feature|Action|Expected Result|Actual Result|
@@ -439,23 +455,26 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
 
-1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-1.jpg)
-2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-2.jpg)
-3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-3.jpg)
+1. <details><summary>Screenshot to show user story test 1</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-1.jpg"></details>
+2. <details><summary>Screenshot to show user story test 2</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-2.jpg"></details>
+3. <details><summary>Screenshot to show user story test 3</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-10-3.jpg"></details>
+
 ### 11. As a Site Owner I want to create an intuitive and responsive website
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |When pages viewed on smaller screens all content will reduce in size without content overflowing and not able to be seen|View homepage, gallery and meet the team pages on a iphone 5 screen with width of 320px|All content will shrink down in size without spilling out and not able to be seen|Works as expected|
 
-1. [Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-11.jpg)
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-11.jpg"></details>
+
 ### 12. As a Site Owner I want to be able to inform clients of changes to the salon
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find announcements section on the homepage|Scroll down|Announcements section will display|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-12.jpg)
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-12.jpg"></details>
+
 ### 13. As a Site Owner I want to generate revenue by allowing clients to book through the website
 
 |Feature|Action|Expected Result|Actual Result|
@@ -464,9 +483,9 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the book now modal to submit request|Click on the book now button on the hero image on homepage|Open modal and give successful submission when hit submit|Works as expected|
 |Use the book now modal to submit request|Click on the book now button in the footer of any page|Open modal and give successful submission when hit submit|Works as expected|
 
-1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-1.jpg)
-2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-2.jpg)
-3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-3.jpg)
+1. <details><summary>Screenshot to show user story test 1</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-1.jpg"></details>
+2. <details><summary>Screenshot to show user story test 2</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-2.jpg"></details>
+3. <details><summary>Screenshot to show user story test 3</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-13-3.jpg"></details>
 
 ### 14. As a Site Owner I want more exposure of the salon's social media pages
 
@@ -476,23 +495,26 @@ It doesn't relate to a specific user story but is an important feature as set ou
 |Use the link in the footer to navigate to the salons instagram page|Click on the instagram icon found in the footer|Salon's instagram page opens up in a new browser tab|Works as expected|
 |Use the link in the footer to navigate to the salons youtube page|Click on the youtube icon found in the footer|Salon's youtube page opens up in a new browser tab|Works as expected|
 
-1. [Screenshot to show user story test 1](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-1.jpg)
-2. [Screenshot to show user story test 2](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-2.jpg)
-3. [Screenshot to show user story test 3](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-3.jpg)
+1. <details><summary>Screenshot to show user story test 1</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-1.jpg"></details>
+2. <details><summary>Screenshot to show user story test 2</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-2.jpg"></details>
+3. <details><summary>Screenshot to show user story test 3</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-14-3.jpg"></details>
+
 ### 15. As a Site Owner I want to be able to receive communication from site visitors
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and use the contact form|Click on the Contact Us link in the navigation bar. The fill out the contact form and press submit once done|Form to be submitted successfully|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-15.jpg)
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-15.jpg"></details>
+
 ### 16. As a Site Owner I want to be able show visitors where the salon is based
 
 |Feature|Action|Expected Result|Actual Result|
 |---|---|---|---|
 |Find the contact page and refer to the embedded map|Click on the Contact Us link in the navigation bar. Scroll down to the map|Map displays and shows correct location of salon|Works as expected|
 
-[Screenshot to show user story test](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-16.jpg)
+<details><summary>Screenshot to show user story test</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/testing/user-story-16.jpg"></details>
+
 # Bugs
 - Bug: Gallery pictures not being responsive when viewed on larger screens.
 - Fix: Resize all pictures using Adobe Photoshop.
