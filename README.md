@@ -297,9 +297,7 @@ It doesn't relate to a specific user story but is an important feature as set ou
 
 5. <details><summary>Contact Us</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-contact-us.png"></details>
 
-6. <details><summary>404 Page</summary>
-<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-404.png">
-</details>
+6. <details><summary>404 Page</summary><img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-404.png"></details>
 
 ## CSS Validation
 [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the site. It returned with 0 errors. See below link to screenshot:
