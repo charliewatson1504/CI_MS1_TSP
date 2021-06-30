@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Private vegan hair salon in Consett, County Durham, UK">
   <meta name="keywords" content="hair, colour, haircut, rainbow">
-
   <!-- Font Awesome Script -->
   <script src="https://kit.fontawesome.com/de2e36d79b.js" crossorigin="anonymous"></script>
   <!-- Bootstrap Link-->
@@ -14,9 +13,7 @@
   <!-- CSS Stylesheet link -->
   <link rel="stylesheet" href="assets/css/stylesheet.css">
   <link rel="icon" href="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/favicon.ico" type="image/x-icon">
-
   <title>The Sky Parlour | Homepage</title>
-
 </head>
 <body>
   <!-- Header containing a navbar with credit to Bootstrap for this component. The navbar give the user access to all pages and is responsive when viewed on all screen sizes. -->
@@ -24,6 +21,7 @@
     <nav class="navbar navbar-expand-lg" id="myNavbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
+          <!-- Logo created by salon owner using Canva -->
           <img src="https://charliewatson1504.github.io/CI_MS1_TSP/assets/images/logo.jpg" alt="The Sky Parlour logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,6 +61,7 @@
             <h5 class="modal-title" id="booknowModalLabel">Make a Booking Enquiry</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <!-- Book Now form currently posting to the Code institute form dump. This will be an update feature when site used live -->
           <form method="POST" action="https://formdump.codeinstitute.net/">
             <div class="modal-body">
               <div class="bookingform">
@@ -91,15 +90,14 @@
       </div>
     </div>
   </header>
-
-<!-- index page hero image with title text and book now CTA for owner goal to increase bookings -->  
-
+  <!-- index page hero image with title text and book now CTA for owner goal to increase bookings -->
   <section id="homepage-hero">
     <div class="hero">
       <h1>Flawless Every Time</h1>
       <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
     </div>
   </section>
+  <!-- Announcements section to bring the users updated news on what has been happening with the salon. This allows the page to be refreshed regularly so that returning users see something new -->
   <section id="announcments">
     <div class="home-container">
       <div class="home-container-heading">
@@ -131,6 +129,7 @@
       </div>
     </div>
   </section>
+  <!-- Reviews section provide the users with an increased level of trust in the service that the salon provides. These reviews have been taken from the facebook page of the salon by the site owner consent. They add to the credibilty of the salon. -->
   <section id="reviews">
     <div class="home-container">
       <div class="home-item">
@@ -140,6 +139,7 @@
     </div>
     <div class="review-container">
       <div class="hero">
+        <!-- Carousel component built with bootstrap. Gives the user more interaction with the site and is visually engaging rather than just static text. -->
         <div id="carouselReviewsControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="7000">
@@ -185,11 +185,14 @@
       </div>
     </div>
   </section>
+  <!-- Footer section containing a final call to action button for getting booking enquirys for the salon at the end of each page. -->
   <footer>
     <div class="footer-container">
+      <!-- Book now button to open modal -->
       <div class="footer-item">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#booknowModal">Book Now</button>
       </div>
+      <!-- Links to salon's social media pages using icons from font awesome. Links open up in a new tab and provide a level of privacy for the user where informaiton cannot be passed onto the opening page. This follows best practice standards. -->
       <div class="footer-item">
         <a href="https://www.facebook.com/theskyparloursalon" target="_blank" rel="noopener">
           <i class="fab fa-facebook-square">
