@@ -287,32 +287,89 @@ It doesn't relate to a specific user story but is an important feature as set ou
 # Validation
 ## HTML Validation
 [W3c Markup Validation Service](https://validator.w3.org/) has been used to validate all of the HTML code within the site. All pages have passed with 0 errors and 0 warnings. Click on the below to see each screenshot:
-1. [Homepage](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-index.png)
-2. [Services](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-services.png)
-3. [Meet The Team](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-meet-the-team.png)
-4. [Gallery](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-gallery.png)
-5. [Contact Us](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-contact-us.png)
-6. [404 Page](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-404.pnghttps://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-404.png)
+1. <details><summary>Homepage</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-index.png">
+</details>
+
+2. <details><summary>Services</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-services.png">
+</details>
+
+3. <details><summary>Meet The Team</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-meet-the-team.png">
+</details>
+
+4. <details><summary>Gallery</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-gallery.png">
+</details>
+
+5. <details><summary>Contact Us</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-contact-us.png">
+</details>
+
+6. <details><summary>404 Page</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/html-validation/html-validation-404.png">
+</details>
+
 ## CSS Validation
 [W3c CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate the CSS of the site. It returned with 0 errors. See below link to screenshot:
 
-- [CSS Stylesheet](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/css-validation/css-validation.png)
+- <details><summary>CSS Stylesheet</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/css-validation/css-validation.png">
+</details>
+
 ## Accessibility Validation
 [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) has been used to validate the site to the recognised standards when it comes to accessibility. All pages have passed with 0 errors. Click on the below to see each screenshot:
-1. [Homepage](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-index.png)
-2. [Services](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-services.png)
-3. [Meet The Team](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-meet-the-team.png)
-4. [Gallery](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-gallery.png)
-5. [Contact Us](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-contact-us.png)
-6. [404 Page](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-404.png)
+1. <details><summary>Homepage</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-index.png">
+</details>
+
+2. <details><summary>Services</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-services.png">
+</details>
+
+3. <details><summary>Meet The Team</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-meet-the-team.png">
+</details>
+
+4. <details><summary>Gallery</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-gallery.png">
+</details>
+
+5. <details><summary>Contact Us</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-contact-us.png">
+</details>
+
+6. <details><summary>404 Page</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/accessibility/WAVE-404.png">
+</details>
+
 ## Performance
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to measure each pages performance. Click on the below to see each screenshot: 
-1. [Homepage](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-index.png)
-2. [Services](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-services.png)
-3. [Meet The Team](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-meet-the-team.png)
-4. [Gallery](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-gallery.png)
-5. [Contact Us](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-contact-us.png)
-6. [404 Page](https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-404.png)
+1. <details><summary>Homepage</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-index.png">
+</details>
+
+2. <details><summary>Services</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-services.png">
+</details>
+
+3. <details><summary>Meet The Team</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-meet-the-team.png">
+</details>
+
+4. <details><summary>Gallery</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-gallery.png">
+</details>
+
+5. <details><summary>Contact Us</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-contact-us.png">
+</details>
+
+6. <details><summary>404 Page</summary>
+<img src="https://github.com/charliewatson1504/CI_MS1_TSP/blob/master/docs/validation/performance-validation/lighthouse-404.png">
+</details>
+
 # Testing of User Stories
 ### 1. As a First Time Visitor I want to know what services are offered by the salon
 
